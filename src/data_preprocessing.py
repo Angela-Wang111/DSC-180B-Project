@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import pydicom as dicom
+# import pydicom as dicom
 import matplotlib.pylab as plt
 import matplotlib.cm as cm
 import os
