@@ -22,7 +22,7 @@ def main():
     """
     Run the main project pipeline logic
     """
-    decode_mask("test/testdata/Pneumothorax_reports_small.csv", "test/testdata/")
+    decode_mask("test/testdata/Pneumothorax_reports_small.csv", "test/testdata/masks/")
     generate_three_csv("test/testdata/Pneumothorax_reports_small.csv")
     
     
