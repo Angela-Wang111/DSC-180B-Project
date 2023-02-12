@@ -1,0 +1,1809 @@
+filename,SOPInstanceUID,StudyInstanceUID,EncodedPixels,Report
+P9313_29_06_2569_DICOM_00003EEA_AAD215A6_AA382F02_0000B49F_EEC29F3A,5.1.742.187374.3.030.4.1111160646.0736690616.253786,3.4.33.340515.78.55.4.5.20804.10555.26976.62124440.668093.8864,-1,"CHEST  [date]
+
+CLINICAL DETAILS:
+Tablet lodged in throat.  ? paracetamol.  Feels like it may have gone into the trachea.
+ 
+
+FINDINGS:
+CHEST
+
+Inspiratory and expiratory films have been performed.
+Heart size is within normal limits.
+Hilar and mediastinal contours are satisfactory, and unchanged from the previous examination.
+No air trapping.
+No radio-opaque foreign body is seen.
+
+
+Transcribed by:  dh
+
+
+Copy to:  Dr [PERSONALNAME]
+"
+P5811_18_05_2567_DICOM_00007F91_AA4BE36D_AA9817AC_00005C47_EE97CBC6,8.7.72.384037.17.3.9.2.56101295106.7125881522590.1,9.2.375.33.5.4614283220.074999,188059 8 1007 23 993 33 982 45 971 55 964 61 961 63 959 66 956 69 953 71 951 74 948 77 900 15 30 79 898 25 20 81 895 37 7 85 892 132 890 134 887 137 885 139 883 141 881 142 880 144 879 145 877 147 876 148 874 150 872 152 871 153 869 155 867 156 866 158 863 161 859 165 853 170 845 179 837 187 830 194 826 198 822 202 820 204 817 207 815 209 816 208 818 206 819 205 821 203 823 201 826 198 828 196 831 34 9 150 833 23 24 144 839 9 36 140 889 135 893 131 897 128 900 124 903 121 906 118 908 116 911 113 914 110 916 108 919 105 921 103 923 101 925 99 927 97 930 94 932 92 935 89 937 87 939 86 940 84 943 81 947 77 950 74 953 71 955 69 958 66 960 65 961 63 963 61 964 60 965 59 966 58 967 57 968 56 969 55 970 55 970 54 971 53 972 52 973 51 974 50 975 49 976 48 977 48 978 46 979 45 980 44 981 43 982 43 983 41 984 40 985 39 986 39 987 37 989 35 990 34 992 32 993 31 994 30 995 29 996 28 997 27 998 25 1000 24 1001 23 1001 23 1002 22 1003 21 1003 21 1004 20 1005 18 1007 16 1009 15 1010 13 1012 11 1014 10 1019 4," 
+Clinical data: Right chest drain inserted.; ? chest drain position.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST  ([ADDRESS])
+
+Comparison is made to the previous [PERSONALNAME] dated [DATE].
+
+There is now a right-sided chest drain in situ with the tip at the right lung base laterally.  This is within the hydropneumothorax which has decreased in size.  There is still persistent perihilar opacity and bibasal atelectasis which is similar to previously.  The left pleural effusion is likewise similar to previously.  No new pulmonary abnormality is seen.
+A left-sided portacath is seen in situ with the tip in the region of the SVC.
+No further abnormality is seen.
+
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P10672_01_09_2570_DICOM_0000EDA7_AAC58AAA_AA34C57C_000054CC_EE12A84E,4.6.297.622060.3.552.7.7650513498.6977201881.95115,6.3.33.936738.97.79.3.1.57598.60300.58122.89648798.03273.5788,-1,"Chest X-Ray [DATE]:[DATE]
+
+CLINICAL:
+Coughing and heard click. Now pleuritic pain.? Pneumothorax.
+
+COMPARISON:
+None available.
+
+FINDINGS:
+Inspiratory and expiratory films have been performed.
+No pneumothorax is identified.
+The lungs and pleural spaces are clear.
+The mediastinal contour is within normal limits.
+
+"
+P11492_24_03_2571_DICOM_000090A9_AAB3B2BF_AA04CC6E_000084AA_EE71B42A,0.4.19.549298.97.9.7.0.55502550868.7702015549111.1,9.6.923.93.6.225767865.8713689,-1,"Chest X-Ray  [ALPHANUMERICID], [DATE]
+
+Clinical: Borderline hypertension
+
+Comparison: None
+
+PA view of the chest. The lungs are free of infiltrate and oedema. No pneumothorax or pleural effusion. Nodules project over both lower lobes representing the patient's nipples due to there size, symmetry, and location. Cardiomediastinal silhouette is within normal limits.
+"
+P9105_10_02_2570_DICOM_0000063C_AA38E23F_AAFECC8C_000047A1_EEBFDC38,2.4.43.605459.14.5.8.8.589327767380058.9917248761284.0,1.5.15.102254.29.36.1.8.44762.53146.46351.97390860.086846.5209,-1,"CHEST
+
+CLINICAL DETAILS:
+Sudden onset right upper lobe pleuritic chest pain.
+
+REPORT:
+Comparison is with previous from [DATE].
+
+The heart size and mediastinal contours are normal.  Lungs are well-inflated and clear.  No evidence of pneumothorax.  No consolidation.
+
+
+Transcribed by:  dh
+"
+P2322_25_02_2572_DICOM_0000F97C_AA410DC7_AAE119FB_0000D7E8_EEC2ECB4,4.0.809.700246.6.860.2.1834894220.7316198555.229425,5.1.70.110665.28.66.4.1.96153.61178.66369.83689100.261588.926,-1,"Chest X-Ray  [ALPHANUMERICID], [DATE]:[DATE]
+
+CLINICAL DETAILS:
+Query pneumonia.
+
+COMPARISON:
+Chest x-rays dated (PA, lateral) [DATE].
+
+FINDINGS:
+CHEST X-RAYS (PA, LATERAL) -
+Similar appearance remains for the bilateral pacemaker wires (previously dual on the right, single chamber on the left), left pacemaker box, and sternotomy wires.
+New dense opacity with some air bronchograms involving the inferior aspect of about 50% of the right hemi thoracic volume with patchy opacity at the superior margin of this year. Rest of the lungs and the left pleural space remain clear.
+Cardiac size is unable to be assessed due to the right lower zone changes.
+Pulmonary vasculature remains normal.
+Similar incidental mild thoracic spondylosis.
+
+COMMENT:
+New moderate to large right pleural effusion with adjacent consolidation, consistent with pneumonia in this clinical setting. Recommend follow-up x-rays in 6 weeks to assess for resolution.
+"
+P830_25_06_2563_DICOM_00003745_AA2E3C23_AA8A90B3_000069D0_EE843A95,4.1.12.077178.72.0.4.1.15427376124.9176203344077.6,5.9.216.19.9.0290858059.039409,-1," 
+Clinical data: Severe L pneumonia.  Slow resolution clinically & CRP.  ;  
+ 
+Medical question: Radiological change?;  
+ 
+  
+   
+  Chest x-ray (PA)
+
+Comparison:  Chest x-ray (AP) dated [ALPHANUMERICID].
+
+  Lungs:  Mild to moderate reduction in the bilateral perihilar mild patchy opacity and left mid and lower zone moderate consolidation.  Developed mild right basal atelectasis.  Clear elsewhere.
+  Pleural spaces: Bilateral (small right and moderate left) pleural effusions better seen.  
+
+No change - 
+  Heart size:  Normal.
+  Mediastinal contour:  Normal.  
+  Pulmonary vasculature:  Normal.  
+  Skeletal and soft tissues:  Normal.  
+
+COMMENT:  Mild reduction in the left consolidation.
+  
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P12700_26_11_2572_DICOM_000064D8_AAF61798_AAB825DA_00005DDC_EE20B1AB,4.9.29.594619.76.3.7.5.80951378181196.1626109706516.7,6.0.01.724961.53.58.9.5.36964.04089.31154.10615741.530764.6907,-1,"Chest X-Ray  [DATE]:[DATE]
+
+CLINICAL DETAILS:
+T/F from [location], right basal pneumonia. To assess progress.
+
+COMPARISON:
+Chest x-ray dated (AP erect, lateral) [ALPHANUMERICID]; CT chest dated [DATE] and [ALPHANUMERICID].
+
+FINDINGS:
+CHEST X-RAY (AP ERECT) -
+Previous collapse of the right middle lobe is gradually improving with only mild linear opacity remaining. Rest of the lungs and pleural spaces remain clear.
+Cardiac size is unable to be assessed due to the AP position.
+Pulmonary vasculature remains normal.
+No free air under the diaphragm.
+
+COMMENT:
+Persisting mild atelectasis at the right middle lobe.
+No consolidation or other new abnormality.
+"
+P3237_11_11_2565_DICOM_00005C70_AADF6995_AAEAD64D_0000F492_EE4654F9,9.0.97.434151.87.2.2.4.39074194587.1077617799264.9,5.9.877.07.2.4721582946.570484,-1," 
+Clinical data: Feeling of chest tightness and shortness of breath.  Reduced chest expansion right side and basal crepitations.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+The heart size and shape are within normal limits.  The lungs are clear.  The mediastinal contour and pleural spaces appear satisfactory. 
+
+
+Transcribed by: rr
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P4282_15_10_2571_DICOM_00001C1F_AA7966B9_AAAE2D48_0000D4FE_EE0A4745,2.3.310.112906.4.030.1.6588328253.0194163253.415104,4.9.94.842338.47.60.6.4.01206.08225.52538.82440250.711404.927,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+CLINICAL DETAILS:
+Severe RUQ/epigastric pain radiating up to the chest. Query free air.
+
+COMPARISON:
+Chest x-ray dated (AP erect) [DATE].
+
+FINDINGS:
+CHEST X-RAY (PA) -
+Both lungs and pleural spaces remain clear.
+Cardiac size remains normal.
+Pulmonary vasculature remains normal. 
+No free air under the diaphragm.
+
+COMMENT:
+No pneumoperitoneum or other new abnormality.
+"
+P13149_02_10_2572_DICOM_000068E6_AAEC008E_AA0B0ADB_000079C4_EE7482D0,2.5.711.865252.6.252.5.3598917106.5423196619.265626,3.5.70.401603.11.88.9.2.81907.43767.14656.05711539.174669.9410,-1,"Chest X-Ray  [DATE]:[DATE]
+
+CLINICAL DETAILS:
+Severe in chest pain. Query cause.
+
+COMPARISON:
+Chest x-ray dated (PA) [ALPHANUMERICID].
+
+FINDINGS:
+CHEST X-RAY (PA) -
+Both lungs and pleural spaces remain clear.
+Cardiac size remains normal.
+Similar appearance remains for the small hiatus hernia behind the heart.
+Pulmonary vasculature remains normal.
+No free air under the diaphragm.  
+Similar mild to moderate marginal osteophytic lipping in the thoracic spine.
+
+COMMENT:
+No consolidation or other new abnormality.
+"
+P12605_18_02_2573_DICOM_00001DC7_AADBBAED_AA7310C2_00004D89_EE3C9C3E,4.1.946.769601.2.647.0.9714836892.4533399995.360460,7.8.34.692688.38.32.2.6.57707.34527.48705.89428112.391621.1735,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+CLINICAL DETAILS:
+History lung cancer, recent radiotherapy finished 3 days ago. Right-sided chest/abdominal pain, tender RUQ ?Free air under diaphragm ?chest infection
+
+COMPARISON:
+Chest x-ray dated [DATE].
+
+FINDINGS:
+Chest ([ADDRESS], erect) -
+Unchanged volume loss in the right hemithorax with oblique linear opacity in the right upper zone, patchy airspace opacity in the middle and lower zones and perihilar density.
+The left lung remains clear.
+Heart size is normal.
+Metal biliary stent unchanged. No free air below the diaphragm.
+
+Reported in consultation with Dr. [PERSONALNAME].
+"
+P13568_20_03_2573_DICOM_0000F31F_AA9E8459_AAA69BBA_0000E539_EE581630,0.3.870.113205.3.911.5.1610839518.4623277804.011892,1.5.80.321921.28.95.1.8.56407.53291.80395.78466303.168122.8509,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+CLINICAL DETAILS:
+Left anterior chest pain.
+
+COMPARISON:
+Chest x-ray dated (PA) [ALPHANUMERICID].
+
+FINDINGS:
+CHEST X-RAY (PA) -
+Both lungs and pleural spaces remain clear.
+Cardiac size remains normal.
+Pulmonary vasculature remains normal.
+No free air under the diaphragm.  
+Bones and joints remain well-preserved.
+
+COMMENT:
+No consolidation, pneumothorax or other new abnormality.
+"
+P11832_31_05_2571_DICOM_00004A0B_AA496D46_AA5F847F_0000956D_EE43A52C,0.4.97.697276.16.3.8.3.788721055049212.0644129599496.6,6.5.34.838242.59.35.3.2.86968.14669.81914.38726987.021037.6315,656539 1 1022 4 1019 6 1018 8 1015 11 1012 13 1010 14 1009 15 1009 16 1008 16 1008 17 1007 17 1007 17 1007 18 1006 18 1006 19 1004 20 1005 19 1005 20 1004 20 1004 21 1003 21 1003 22 1002 22 1002 22 1002 22 1002 22 1002 23 1001 23 1001 23 1001 23 1001 24 1000 24 1000 24 1000 25 999 25 1000 24 1000 25 999 25 999 25 1000 25 999 25 999 26 998 26 998 27 998 26 998 27 997 27 997 28 996 28 996 29 995 29 995 30 994 30 995 30 994 30 994 31 994 30 994 31 993 31 994 30 994 31 993 31 994 31 993 31 993 32 993 31 993 31 994 31 993 31 993 32 993 31 993 31 994 31 993 31 994 31 993 31 993 31 994 31 993 31 994 31 993 31 994 31 994 30 994 30 995 30 995 29 995 29 996 29 996 28 996 28 997 28 997 27 997 28 997 27 998 27 998 26 1000 25 1000 24 1001 24 1001 23 1003 22 1003 22 1003 21 1005 20 1005 20 1005 19 1006 19 1006 18 1008 17 1008 17 1008 16 1009 16 1009 16 1009 15 1011 14 1011 14 1011 13 1012 13 1012 13 1012 12 1014 11 1014 11 1014 10 1015 10 1015 10 1015 9 1016 9 1016 9 1016 8 1017 8 1017 8 1017 8 1017 9 1016 9 1016 9 1016 9,"Chest X-Ray  [DATE]
+
+Clinical: Trauma left rib fractures. Pneumothorax.
+
+Comparison: [DATE]
+
+PA view of the chest. Developing opacity left base probably representing atelectatic changes and a small effusion. Trivial left apical pneumothorax. Right lung is clear. Cardiomediastinal silhouette is within normal limits. Known left rib fractures not well visualised.
+"
+P1824_10_07_2564_DICOM_0000EC39_AA488C10_AAB51ABA_0000D6F5_EE1C9677,6.3.42.108856.54.7.5.8.72491872699.5266358056909.2,2.0.879.23.1.2015921803.352153,-1," 
+Clinical data: Immigration.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Comparison is made to the previous film from [ALPHANUMERICID].
+The heart size and shape are within normal limits.  The lungs are clear.  There is a minor scoliosis in the thoracic spine convex to the right.
+
+Transcribed by: rr
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P3353_12_08_2565_DICOM_000006B9_AA6A8885_AAAB003F_00003809_EE787555,3.8.25.591233.44.2.3.1.057922899247838.7307025026144.1,6.3.698.17.9.7499141425.522617,-1," 
+Clinical data: Pacemaker removed because of infect RV pacing leads.  ? Pneumothorax.;  
+ 
+Medical question:  
+ 
+  
+   
+  [PERSONALNAME]
+
+There is a lead in the right ventricle from the right arm.  No change in the heart size.  The lungs appear normal with no evidence of a pneumothorax.  
+
+
+Transcribed by: LL
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P2218_17_04_2564_DICOM_0000DFFC_AAACA242_AAC82C2F_00003C47_EE7359BA,6.6.85.627333.78.5.1.7.49119179819.6766189101441.8,3.6.623.76.4.7649969188.144445,-1," 
+Clinical data: Seizure/collapse.  ? Cardiomegaly.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest ([ADDRESS])
+
+Comparison:  None available.
+
+The cardiac size and pulmonary vasculature are normal.  Both lungs and both pleural spaces are clear.
+
+Transcribed by: rr
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P1103_24_01_2564_DICOM_0000A512_AA447B51_AA336A6C_00000BEF_EEB7FA12,9.7.06.994013.16.6.4.8.61470665915.6833816945221.5,4.7.091.33.9.5557634095.516105,-1," 
+Clinical data: Lung cancer.  Right hip pain.  THR.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+There is evidence of previous cardiac surgery.  Heart size is within normal limits.  Lungs are clear. 
+
+Pelvis
+
+The position of the right total hip replacement appears satisfactory.  No bony or joint abnormality is seen. 
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P12765_23_08_2572_DICOM_0000F9C4_AA54A76A_AA4C157F_000032CB_EE25C1D0,5.2.53.093687.15.9.6.8.025554256255830.4813500240018.6,3.6.88.189042.20.50.0.1.85540.96045.57665.42473743.33946.1856,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+
+CLINICAL DETAILS:
+Pacemaker implant preop.
+
+FINDINGS
+ Comparison: [DATE].
+Mild cardiac enlargement. Perihilar markings mild coarsened raising possibility of mild cardiac failure. No pleural effusions or consolidation.
+
+
+"
+P9914_13_06_2570_DICOM_000069AE_AAE739F5_AAA5F594_0000496D_EEFA520F,1.4.72.709307.92.5.2.2.00477349670.8108282652539.0,1.8.543.29.0.518867399.6479795,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+CLINICAL DETAILS:
+CABG x [DATE] on [DATE].
+
+COMPARISON:
+None available.
+
+FINDINGS:
+CHEST X-RAY (PA) -
+CABG surgical material in situ.
+Both lungs and pleural spaces are clear.
+Cardiac size is normal.
+Pulmonary vasculature is normal.  
+No free air under the diaphragm.
+
+COMMENT:
+No acute abnormality.
+"
+P4877_14_09_2566_DICOM_00000063_AAA7B026_AAE572EC_0000B3CE_EE8A2E9E,8.2.720.312082.6.567.0.5721181098.9349443834.240821.0,9.0.323.99.1.1152934257.775160,-1," 
+Clinical data: ? right septic hip for pre-op CXR as well.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest x-ray (PA) and Pelvis and Right Hip X-rays 
+
+Comparison:  Chest x-ray (PA) dated [DATE] and Pelvic Xray dated [DATE] and [ALPHANUMERICID]. 
+
+Chest-
+Resolution is seen for the previous mild atelectasis at the left base.  The rest of both lungs and right pleural space remain clear. 
+The cardiomediastinal contour remains at the upper limit of normal with mild to moderate unfolding of the thoracic aorta.
+The pulmonary vasculature remains normal.  
+The left PICC line has been removed.  
+
+Pelvis-
+The bilateral total hip replacements remain in anatomical position with similar minimal radiolucency around the acetabular components.  
+Mild to moderate spondylosis is seen in the lower lumbar spine.  
+The rest of the imaged pelvis remains normal.   
+
+Reported in consultation with Dr [PERSONALNAME]. 
+
+
+
+
+
+
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME]  Dr. [PERSONALNAME] 
+[PERSONALNAME] 
+
+"
+P3904_24_09_2565_DICOM_0000508A_AAD7EA96_AA115C9C_000039B4_EEDDBBCA,6.8.55.668345.97.4.5.4.09311237183.4620467714174.6,2.1.969.13.6.5492641009.873197,-1," 
+Clinical data: Recent pneumonia.;  
+ 
+Medical question:  
+ 
+  
+   
+  CHEST
+
+On the current film the heart and lung fields are unremarkable.
+
+
+Transcribed by: LL 
+  
+ 
+    
+ 
+  
+[PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P10048_15_06_2570_DICOM_00000111_AA27B6A7_AA676992_0000BF50_EEA67587,6.0.072.677246.5.994.5.6184771381.6769151212.30001,9.5.92.189508.10.22.6.2.15880.65230.35168.25045985.467818.6902,-1,"Chest X-Ray, Tibia and Fibula  [ALPHANUMERICID], [date]
+
+CLINICAL:
+Cellulitis left leg? Osteomyelitis
+
+FINDINGS: 
+AP erect chest 
+Allowing for the projection the heart size is at the upper limit of normal and the mediastinal contours are normal.
+The lungs and pleural spaces are clear bilaterally.
+Surgical clips noted in the right axilla.
+
+AP and lateral lower leg 
+No concerning bony abnormality or changes consistent with osteomyelitis.
+Joint alignment appears normal at the knee and ankle.
+
+Reported in consultation with Dr. [PERSONALNAME].
+"
+P487_16_03_2563_DICOM_0000DEA1_AADCB9D6_AA6E0F3A_0000E559_EECF79E3,1.2.64.609732.23.1.3.0.07057403149.2866962946614.4,0.7.227.74.9.3506879081.234087,275687 1 1022 1 1022 2 1021 3 1020 3 1020 4 1019 4 1019 5 1018 6 1018 5 1018 6 1017 6 1017 7 1016 7 1016 8 1016 7 1016 8 1015 8 1015 9 1014 10 1014 9 1014 10 1014 9 1014 10 1014 10 1013 10 1014 10 1013 10 1014 10 1013 10 1014 10 1013 10 1013 11 1013 10 1013 11 1013 11 1012 11 1013 11 1012 11 1013 11 1012 12 1012 11 1012 12 1012 12 1011 12 1012 12 1011 12 1011 13 1011 13 1010 13 1011 13 1010 14 1009 15 1009 14 1009 15 1008 16 1008 16 1007 16 1008 16 1008 16 1007 16 1008 16 1007 16 1008 16 1008 16 1007 16 1008 16 1008 16 1007 16 1008 16 1007 16 1008 16 1008 16 1007 16 1008 16 1008 16 1008 16 1007 16 1008 16 1008 16 1008 16 1007 16 1008 16 1008 16 1008 15 1008 16 1008 16 1008 15 1009 15 1008 16 1008 15 1009 15 1009 15 1009 14 1009 15 1009 14 1010 14 1010 14 1009 14 1010 14 1010 14 1010 13 1010 14 1010 13 1011 13 1011 13 1010 13 1011 13 1011 13 1011 13 1011 13 1011 13 1011 13 1011 13 1011 13 1011 13 1012 12 1012 12 1012 12 1012 12 1012 12 1012 12 1012 12 1012 12 1012 12 1013 11 1013 11 1013 11 1013 11 1014 10 1014 11 1013 11 1013 11 1014 11 1013 11 1013 11 1014 11 1013 11 1014 10 1014 11 1013 11 1014 10 1014 11 1014 10 1015 10 1014 10 1015 9 1015 10 1015 9 1015 9 1016 9 1015 9 1016 9 1015 9 1016 8 1016 9 1016 8 1017 7 1017 8 1017 7 1018 7 1017 7 1018 6 1019 6 1019 5 1020 4 1021 3 1021 4 1021 3 1022 2 1023 1 1024 1," 
+Clinical data: Follow up.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST ([ADDRESS] AND LATERAL VIEWS). 
+
+Previous PA chest radiograph [ALPHANUMERICID] had demonstrated surgical clips to the left of L1 but no right sided pulmonary nodule detected and also no CT available.  Recent surgery right hemithorax with  apparent partial rib resection and right basal intercostal drainage tube tip situated at the right posterior costophrenic angle.  There appears to be loss of volume relating to the right lower lobe.  There is a small right apical pneumothorax.  Blunting left lateral costophrenic angle.  Opacification relating to the right lower posterior pleural space.  Transverse cardiomegaly with cardiothoracic ratio of 12:20.  The lung fields are congested.  Follow-up imaging is required. 
+
+Transcribed by: ep
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P5294_27_05_2566_DICOM_000039B3_AAAC7B35_AA675689_00001ABA_EE59F00E,7.2.73.886808.34.6.7.8.606107214649159.9208314602713.8,2.8.206.95.9.0894493742.519416,-1," 
+Clinical data:  
+ 
+Medical question: ? TB.;  
+ 
+  
+   
+  
+CHEST
+
+No cardiomegaly.  No active lung lesion seen. 
+There is slight blunting of the right lateral costophrenic angle.
+There is again noted to be an apparent prominent right paracardiac fat pad, and previous lateral chest radiograph [DATE] had demonstrated a pectus excavatum, therefore this is due to the so-called pseudopneumonia appearance.
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P10357_23_04_2570_DICOM_0000DD26_AA0F3418_AA19EE73_0000079D_EEDA1032,1.4.684.748624.5.222.5.5068201957.1343821255.254562,7.6.79.504617.36.68.0.2.53879.52855.7084.86092982.117449.2276,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+Clinical details: 
+Shortness of breath. History of ovarian carcinoma.
+
+Report:
+Comparison is made to the examination from [DATE].
+The heart size and shape are within normal limits.
+The lungs are clear.
+No mediastinal or pleural abnormality is seen.
+No bone or soft tissue abnormality is seen.
+"
+P5695_06_04_2567_DICOM_00006953_AAFB92F0_AAD9A1CD_0000E560_EE48E735,0.0.13.612550.94.4.1.0.922393870886622.6212474757264.3,3.7.714.12.9.5997646108.355600,-1," 
+Clinical data: CPFE  1 year follow-up.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Comparison study [DATE] and [ALPHANUMERICID].
+
+The heart size is normal.  Interstitial fibrotic changes are seen involving the upper mid and lowere zones, more marked on the left than the right with associated volume loss on the left.  Overall appearances are unchanged from the previous studies.
+
+Transcribed by: jb
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P10319_22_06_2570_DICOM_00004BFC_AA4769A0_AA0105A8_00007E96_EE0D99CC,9.9.958.135867.3.462.6.5426614640.7367906512.21909,4.1.48.467692.22.02.4.8.68983.20438.43407.02598211.849.931,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+Clinical:
+COPD. Preop.
+
+Report:
+Comparison is made to the examination from [DATE].
+Prominent background changes of COPD are present. No acute lung parenchymal abnormality is seen. Scattered nodular opacity and calcified lymph nodes are seen throughout both lungs consistent with a remote history of sarcoidosis. No pleural abnormality is seen.
+"
+P9396_01_10_2569_DICOM_000031C5_AA2E5AED_AAF5E910_0000328F_EE1CE7BC,0.5.319.589102.5.939.5.8083367945.5439999371.484964,1.8.25.106054.91.52.9.8.12555.37105.01681.56272868.27249.6825,-1,"Chest X-Ray  [date]
+
+Indication: Cough and fevers.
+
+PA CHEST
+
+Heart size normal.
+Cardiomediastinal contours normal.
+Lungs and pleural spaces clear.
+"
+P5702_05_05_2567_DICOM_00002197_AA9A2F60_AACFAADB_00005B45_EEF786F3,5.2.17.302106.43.9.9.8.874208721923709.8949219476625.5,2.2.875.67.5.8703285841.466869,-1," 
+Clinical data: Chest infection with bronchospasm, smoker.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST  ([ADDRESS])
+
+Comparison is made to the previous [PERSONALNAME] dated [DATE].
+
+The heart size is within normal limits. 
+The lungs are clear. 
+
+Reported in consultation with Dr [PERSONALNAME]
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME]  Dr. [PERSONALNAME] 
+[PERSONALNAME] 
+
+"
+P11739_29_12_2571_DICOM_0000DAF2_AAC7C9E8_AAF2203F_000064CA_EE0C8DBC,2.0.23.942008.88.1.9.1.253964666003454.3745256347378.3,5.0.80.847273.56.77.6.6.99798.61999.16398.98482940.854611.3358,-1,"Chest X-Ray  [DATE]
+
+Clinical
+Giant cell arteritis.
+Report
+No significant abnormality seen.
+"
+P8381_06_01_2570_DICOM_00006A2C_AA81C56F_AA630775_00004B01_EE1BD6A0,9.4.32.797596.70.5.9.0.579180000723588.8907864363008.7,4.8.18.427871.29.50.2.5.21651.06821.35850.08341751.769490.0040,-1,"Chest X-Ray  [date]
+
+Clinical details:
+Papillary thyroid carcinoma. Post thyroidectomy.
+
+Report:
+.The heart size and shape are within normal limits.
+The lungs are clear.
+No mediastinal or pleural abnormality is seen.
+No bone or soft tissue abnormality is seen. Surgical clips in the neck are noted.
+"
+P10556_30_10_2570_DICOM_0000DDCC_AA9CF826_AA744471_00002D59_EE9A6088,1.9.03.279991.92.559600860332.4150.8277843936460,2.8.846.32.5.599807202.0862750,-1,"Chest X-Ray  [DATE]:[DATE]
+
+CLINICAL DETAILS:
+Central chest pain. Sounds cardiac. Reports yellow sputum recently. Ensure no consolidation - clinically lungs clear.
+
+COMPARISON:
+Chest x-ray dated [ALPHANUMERICID].
+
+FINDINGS:
+There is a small hiatus hernia behind the heart.
+The heart size and mediastinal contours are within normal limits.
+Both lungs and pleural spaces are clear. 
+
+Reported in consultation with Dr. [PERSONALNAME].
+
+"
+P9652_15_03_2570_DICOM_00000F13_AA9CEA30_AAEBD037_0000DCE0_EE75924F,6.3.45.340028.75.2.0.3.53307591058.1158698491038.9,9.0.95.682870.10.37.0.4.13163.93799.84265.51427839.90521.1097,552070 12 1010 16 1005 22 1000 26 996 28 994 31 991 34 989 35 988 37 986 39 983 40 983 41 982 42 981 42 981 43 981 42 981 43 980 44 980 43 980 44 979 44 980 44 979 44 980 44 979 44 980 44 979 44 980 43 980 44 980 43 981 42 981 43 981 42 981 42 982 41 983 41 982 41 983 40 984 40 983 40 984 39 984 39 985 39 985 38 985 38 986 38 986 37 987 36 988 36 988 35 989 35 989 34 989 35 989 34 990 34 990 33 991 33 991 33 991 33 991 32 992 32 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 991 33 990 34 990 35 989 35 989 35 989 35 989 36 988 36 988 36 988 36 988 37 989 35 989 35 989 36 988 36 989 35 989 36 988 36 988 36 988 37 988 36 988 37 987 37 987 37 988 37 987 37 987 38 986 38 987 38 986 38 987 38 986 38 987 38 986 38 987 38 986 38 987 38 986 38 987 38 987 37 987 38 987 37 987 38 987 37 987 38 987 37 987 38 987 38 986 38 987 38 986 38 987 38 987 37 987 38 987 37 988 37 987 37 988 37 988 36 989 36 988 36 989 36 989 35 989 36 989 35 990 35 990 35 989 35 990 35 990 35 989 35 990 35 990 35 990 35 990 35 990 35 990 35 990 35 990 35 990 35 990 34 991 34 990 35 990 34 991 34 991 34 991 34 991 33 991 34 991 34 991 33 992 33 992 33 992 33 992 32 993 32 993 32 993 31 994 31 994 31 995 30 995 30 995 30 995 30 996 29 996 29 996 29 997 28 997 28 998 27 999 26 1000 25 1000 25 1001 24 1002 23 1002 23 1003 22 1003 22 1004 21 1004 21 1004 22 1004 21 1004 21 1005 20 1005 20 1005 20 1006 20 1005 20 1006 19 1006 19 1006 19 1007 19 1007 18 1008 17 1009 16 1010 15 1011 14 1012 13 1013 12 1015 10 1017 8 1018 3,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+Clinical
+Traumatic pneumothorax.
+
+
+[PERSONALNAME] is a moderately sized pneumothorax at the left apex.
+"
+P10469_28_11_2570_DICOM_00002BC0_AA028A3D_AA34196F_00003303_EE0A2374,4.7.384.631244.1.986.3.9217779402.4910994709.861697,8.3.10.265717.07.59.9.0.86088.97819.44633.71120165.121185.2979,-1,"Chest X-Ray  [date]
+
+Clinical:
+Worsening shortness of breath and wheeze. Known severe COPD.
+
+Report:
+Comparison is made to examination from [DATE].
+
+There is no change in appearance. Prominent background changes of COPD are present. No acute lung parenchymal abnormality is seen. The heart size is normal.
+"
+P1749_08_04_2564_DICOM_00000CA8_AA330109_AAB2365A_00003683_EE3C26A0,8.2.95.499141.79.9.6.0.10084796298.4504680884297.1,3.6.118.37.7.4785581932.965520,-1," 
+Clinical data: Post drain removal secondary to pneumothorax.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+Chest
+            
+The heart size is at the upper limit of normal. The lungs are clear without  any sign of residual pneumothorax.
+
+Transcribed by: ep
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P4014_29_10_2565_DICOM_00001B77_AAFC03D1_AA9A358F_0000FC3C_EE4EB079,7.0.00.397140.75.5.4.7.06009451168.8054064353002.6,3.4.309.98.7.2003379371.048455,-1," 
+Clinical data: Acute chest pain.  Query ACS or LVF.  ;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest x-ray (PA, lateral)
+
+Comparison:  None available.
+
+The cardiomediastinal silhouette and pulmonary vasculature are unremarkable.
+Both lungs and both pleural spaces are clear.  
+Mild to moderate spondylosis is seen throughout the thoracic spine with well preserved vertebral body height.  
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P624_15_01_2564_DICOM_00008D3F_AAAAF53F_AAB592B8_0000E31D_EE7322D9,2.2.38.792287.50.5.7.8.98532558779.7927705736793.7,6.3.333.32.4.5761479947.746260,-1," 
+Clinical data: Small bowel obstruction.  Wheeze.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Comparison is with previous from [ALPHANUMERICID].
+The heart size is normal.  There is ectasia of the descending aorta.  A nasogastric tube is noted in a satisfactory position.  There is an area of atelectatic change involving the right lower lobe, this is moderate in size.   This will require a follow-up chest x-ray in 4-6 weeks or sooner if clinically indicated.  The lungs are otherwise clear.  The pleural spaces are clear.
+
+Comment:
+Atelectasis in right lower lobe.  A follow-up in 4-6 weeks is recommended.
+
+Transcribed by: jb
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P3437_15_12_2565_DICOM_00003201_AA42C13D_AA97E5F4_00005350_EE7EDD97,2.8.53.728465.37.2.2.5.17294215318.1442558633961.4,7.6.625.62.4.9607763919.810963,-1," 
+Clinical data: Unwell.  Cough and pneumonia.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Heart size is normal.  Lungs are clear.  Pleural spaces are clear.  No consolidation.  
+
+Transcribed by: dh
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P11875_02_07_2571_DICOM_0000A3E7_AA1FDD09_AAE3EFF0_0000FF9A_EE76CFFE,4.9.82.122255.03.2.8.8.377386887116820.7313566522486.9,6.7.09.132569.27.63.9.0.61621.45258.16481.06294876.161441.0475,-1,"Chest X-Ray  [DATE]
+
+Clinical
+Previous right lower lobe pneumonia.
+Report
+On the current film both lungs are clear.
+"
+P693_30_06_2563_DICOM_0000E605_AAEBB97F_AA94A23C_0000E689_EEED7C45,2.1.89.334110.85.8.9.6.06375264470.5009952492450.9,4.0.580.91.1.4969014587.437543,352450 1 1021 2 1020 3 1019 5 1018 5 1017 6 1017 7 1016 7 1015 8 1015 8 1014 10 1012 11 1011 12 1010 14 1008 15 1008 15 1008 15 1007 16 1007 17 1005 18 1005 18 1005 18 1004 19 1004 20 1003 20 1003 20 1003 20 1003 21 1002 21 1002 21 1002 22 1001 22 1001 22 1001 22 1001 22 1001 22 1001 23 1000 23 1000 23 1000 23 1000 24 999 24 999 24 1000 24 999 24 999 25 999 24 999 24 999 25 999 24 999 24 1000 24 999 24 1000 23 1000 24 1000 23 1000 24 1000 23 1000 24 1000 23 1000 24 999 24 1000 24 999 25 999 24 1000 24 999 24 1000 24 999 25 999 24 1000 24 999 25 999 25 999 24 999 25 999 25 999 25 998 25 999 25 999 25 998 26 998 25 999 25 999 25 999 25 999 24 1000 24 1000 24 999 25 999 25 999 25 999 25 999 25 999 25 999 24 1000 24 1000 24 999 25 999 25 999 25 999 25 999 25 999 25 999 24 1000 24 999 25 1000 24 1000 23 1001 23 1001 23 1001 23 1001 22 1002 22 1002 22 1002 21 1004 20 1004 19 1005 19 1005 19 1005 18 1006 18 1006 18 1006 17 1008 16 1008 15 1009 15 1009 15 1010 13 1011 13 1011 13 1011 13 1011 13 1012 12 1012 12 1013 11 1013 11 1014 10 1014 10 1015 9 1015 9 1016 8 1016 8 1017 7 1018 6 1018 6 1019 5 1019 5 1020 4 1020 5 1020 4 1021 3 1021 3 1022 3 1021 3 1022 3 1022 2 1023 2 1023 2 1023 1 1024 1," 
+Clinical data: [PERSONALNAME] 2 post pleurectomy.  Left chest drain clamped.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+Chest
+
+Comparison is made to an [PERSONALNAME] from 2 days earlier.
+Small bilateral apical pneumothoraces persist..  The heart size and shape are normal. The remainder of the lungs are clear. 
+
+Transcribed by: ep
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P9688_15_11_2572_DICOM_00001B26_AA737754_AA99C190_0000F9C2_EE7238D4,0.8.16.499427.93.7.5.0.25037394917141.1799539914968.9,6.5.37.949280.13.97.3.8.46662.19410.23384.23288878.385466.7294,115021 3 1015 8 1011 12 1007 17 1003 20 1001 22 998 24 997 25 997 25 997 25 997 26 996 26 996 27 995 27 995 28 994 28 994 29 993 29 993 30 992 31 991 31 992 31 991 32 990 33 989 34 988 35 988 36 986 37 986 37 985 38 985 38 984 39 984 39 983 39 984 39 983 40 983 40 982 41 982 41 982 41 981 42 981 43 980 43 979 44 979 44 979 44 979 44 979 44 979 43 980 43 980 43 980 43 980 43 980 43 980 43 979 43 980 43 980 43 980 43 980 43 980 42 981 42 980 43 980 42 981 42 981 42 981 41 982 41 982 41 981 41 982 41 982 41 982 41 982 40 983 40 983 40 984 38 985 38 985 38 985 38 985 38 985 38 985 38 985 38 986 37 986 37 986 37 986 37 986 37 986 38 986 37 986 37 986 37 986 37 987 37 986 37 986 38 986 37 986 38 985 39 985 38 985 39 984 39 985 39 984 40 983 41 983 40 983 41 982 42 982 41 982 42 981 43 981 43 980 43 980 44 980 44 979 45 979 45 978 45 978 46 978 46 977 47 977 47 976 47 977 47 976 48 976 48 975 49 974 50 974 50 973 51 973 51 972 52 972 51 972 52 972 52 972 52 971 53 971 53 970 54 970 54 969 55 969 55 969 55 968 56 968 56 967 57 967 57 967 57 966 58 966 58 965 59 965 59 965 59 964 60 964 60 963 61 963 61 963 61 962 63 961 63 960 64 960 64 960 64 960 65 959 65 958 66 958 66 958 66 958 67 957 67 956 68 956 68 956 68 955 70 954 70 954 70 954 71 952 72 952 72 952 72 951 74 950 74 950 74 950 75 949 75 949 76 948 76 948 77 947 78 946 78 946 79 944 80 944 81 943 81 943 82 942 82 942 83 941 84 940 84 940 85 939 85 939 86 938 86 938 87 937 87 937 88 936 89 935 89 935 90 934 90 934 91 933 91 933 92 933 91 933 92 932 93 931 93 931 94 931 93 931 94 930 94 930 95 929 95 930 95 929 95 929 96 929 95 929 96 928 96 928 97 928 96 928 97 927 98 927 97 927 98 927 98 926 98 926 99 926 99 925 100 925 100 924 101 923 102 923 102 923 102 922 103 922 103 922 103 921 104 921 105 920 105 919 106 919 106 919 106 918 107 918 107 918 107 918 107 917 108 917 108 917 108 917 108 917 108 917 107 918 107 918 107 918 107 918 107 918 107 919 106 919 106 919 105 921 104 921 104 921 104 922 103 922 103 922 103 923 102 923 101 924 101 925 100 925 100 926 99 926 99 927 98 927 98 928 98 928 97 929 96 930 95 931 94 932 93 934 91 935 91 937 88 941 84 945 80 949 76 953 72 957 68 959 67 963 62 972 53 982 43 988 36 994 31 1001 23 1008 17 1012 13 1016 8 1022 3,"No report available yet.
+
+"
+P6111_24_03_2567_DICOM_0000A44C_AAE12B74_AA0F5F50_00009612_EEE6AC37,5.5.00.822206.22.5.5.3.29910628329.4951226251535.0,2.0.662.58.6.7120410611.137686,257403 2 1020 3 1019 4 1018 5 1017 7 1015 8 1014 9 1013 10 1012 11 1011 12 1010 13 1010 13 1009 14 1009 14 1009 14 1008 16 1007 16 1006 17 1006 18 1005 18 1004 19 1004 19 1003 21 1002 21 1002 21 1001 23 1000 23 999 24 999 25 998 25 997 27 996 27 996 28 995 28 995 29 994 29 994 30 993 30 992 32 991 32 991 33 989 34 989 35 988 35 988 35 988 36 987 37 986 37 986 38 985 38 985 39 985 39 984 39 984 40 983 41 982 41 982 42 981 42 981 43 980 44 979 44 979 45 978 46 978 45 978 46 977 47 977 46 977 47 976 48 975 48 976 48 975 49 974 50 974 49 974 50 973 51 972 52 972 51 972 52 971 53 971 53 970 53 970 54 970 54 969 55 969 54 969 55 968 56 968 56 967 57 967 57 966 58 966 58 965 59 965 58 965 59 965 59 964 60 964 60 963 61 963 61 962 62 962 61 962 62 962 62 961 63 961 63 961 63 960 64 960 64 959 65 959 65 959 65 958 66 958 66 958 66 957 67 957 67 956 68 956 68 956 67 956 68 956 68 956 68 955 69 955 69 954 70 954 70 954 70 953 71 953 71 953 71 952 72 952 72 951 73 951 73 951 74 949 74 950 74 950 74 950 74 950 74 949 75 949 75 949 75 949 75 948 76 948 76 948 76 948 76 947 77 947 77 947 77 947 77 946 77 947 77 947 77 947 77 946 77 947 77 947 77 947 77 946 77 947 77 947 77 947 76 948 76 947 76 948 76 948 76 948 75 948 76 948 75 949 74 950 74 950 73 951 72 952 72 952 71 952 71 954 70 954 69 955 68 956 68 956 67 957 66 958 65 959 64 960 64 961 62 962 61 963 60 965 58 966 57 968 55 969 55 969 54 971 52 972 51 974 49 975 49 976 47 977 46 979 45 979 44 981 42 983 40 984 40 985 38 987 36 988 36 989 34 991 32 992 31 994 29 996 27 997 26 999 24 1000 23 1002 20 1006 17 1008 15 1010 12 1014 5," 
+Clinical data: Post-operative right upper and middle lobectomy.;  
+ 
+Medical question:  
+ 
+  
+   
+  CHEST:
+
+There is a chest tube on the right pleural space. There is a small persistent pneumothorax on the right. The left lung is clear.
+
+Transcribed by:  KA
+  
+ 
+    
+ 
+  
+[PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P10316_25_03_2570_DICOM_0000CEC2_AAF0F6D2_AAA0296E_000051FA_EEEE39C4,1.4.74.046537.05.8.2.0.70950249050.4944360409992.9,9.0.204.75.1.096069290.8507447,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+Clinical: Cardioversion
+
+Comparison: None
+
+PA and lateral views of the chest. The lungs are free of infiltrate and oedema. No pneumothorax or pleural effusion. Cardiomediastinal silhouette within normal limits. Mild degenerative changes of the thoracic spine.
+"
+P7043_04_04_2568_DICOM_00001A4C_AA5CF1B1_AA53D4D4_000074D6_EE4ADC88,4.6.17.220400.59.9.9.7.35650866390.8378553289501.6,4.6.25.774537.75.58.5.0.40202.44966.85925.01516636.651595.3993,-1," 
+Clinical data: Pre op.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Heart size is within normal limits.  Lungs are clear. 
+
+
+
+
+Dr [PERSONALNAME], [PERSONALNAME]
+Consultant Radiologist"
+P10559_30_11_2570_DICOM_0000FDE6_AA3AFE03_AA4E51FA_000088C3_EE760B74,7.1.44.066606.31.0.3.9.962307900561571.7214180107877.2,3.7.21.182269.51.51.7.9.47088.92720.88320.41180050.318238.891,-1,"Chest X-Ray  [date]
+
+Clinical: Postop thoracic surgery
+
+Comparison: [DATE]
+
+PA views of the chest in inspiration and expiration. Development of moderate amount of subcutaneous emphysema overlying the left hemithorax with development of pneumomediastinum. Decrease in left pneumothorax now trace to small. Improved aeration in the left mid lower lung zones. Right lung remains clear. Cardiomediastinal silhouette within normal limits.
+"
+P10872_06_08_2571_DICOM_0000AA37_AAC9D844_AA3F4CF7_000061EB_EE1D5E8A,8.0.38.453466.34.8.1.2.913505695328779.2558424455534.5,3.7.14.621098.22.09.7.4.39820.48715.75366.66279797.856143.7938,-1,"Chest X-Ray  [ADDRESS]: and lateral chest
+
+Indication: Cough with small amount of haemoptysis
+
+Findings: Heart and lungs unremarkable.
+"
+P1449_04_10_2563_DICOM_00007085_AA511F57_AA51E61E_00003576_EE1AAE7D,3.7.21.929491.40.5.0.9.91145731749.3805937541554.5,0.7.214.92.6.6424613735.528451,293145 3 1017 6 1017 7 1016 7 1016 7 1016 8 1015 8 1015 9 1015 8 1015 9 1015 8 1015 9 1015 8 1015 9 1015 8 1015 9 1015 8 1016 8 1015 9 1015 8 1015 9 1015 8 1016 8 1015 9 1015 8 1015 9 1015 9 1014 10 1014 10 1013 11 1013 11 1012 12 1012 11 1012 12 1012 12 1012 12 1011 13 1011 13 1010 14 1010 14 1010 14 1010 13 1011 13 1010 14 1010 14 1010 13 1011 13 1010 14 1010 14 1010 13 1010 14 1010 14 1009 14 1010 14 1010 13 1010 14 1010 14 1010 13 1011 13 1010 14 1010 13 1011 13 1011 12 1011 13 1011 13 1011 12 1012 12 1012 12 1012 11 1013 11 1013 11 1013 10 1013 11 1013 11 1013 10 1014 10 1014 10 1014 10 1014 10 1014 10 1014 10 1015 9 1015 9 1015 9 1015 9 1015 9 1015 9 1015 9 1015 9 1015 9 1016 8 1016 8 1016 8 1017 7 1017 7 1018 6 1018 6 1018 6 1018 6 1018 6 1018 6 1018 6 1019 5 1019 5 1019 5 1020 4 1020 4 1021 3 1021 2 1022 1," 
+Clinical data: Post operative.;  
+ 
+Medical question:  
+ 
+  
+   
+  CHEST ([ADDRESS] AND LATERAL VIEWS)
+
+Compared to AP erect chest radiograph [DATE], the features of right upper lobectomy are again seen as well as two right sided intercostal drainage tubes.  There is mass-like opacification in the right hilar and azygos region and there is elevation of the right hemidiaphragm, the latter could well be due to a phrenic nerve palsy.  There is a small right apical pneumothorax which appears to be loculated and there is also surgical emphysema at the right side of the neck, though less as compared to previous radiograph.  No abnormality of the left lung detected.  Transverse cardiomegaly with cardiothoracic ratio of approximately [ALPHANUMERICID].  There are small surgical clips relating to the right hilar region.  The rib fracture of the 5th posterior rib is again seen.  (This may relate to surgery).  The tumour centred at the right azygos region may have recurred or there may be lymphadenopathy.
+
+Transcribed by: rr
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P13086_01_10_2572_DICOM_0000966B_AA720F0D_AA910CDE_000082A9_EE27AF16,7.8.596.789454.5.767.6.6965694137.1644929966.01159,1.6.86.681759.22.04.0.5.95150.30562.36279.48203236.838639.6386,-1,"Chest X-Ray  [DATE]:[DATE]
+
+CLINICAL DETAILS:
+[age] unwell SOB and cough with fever 3-4 days. Worsening nephrotic syndrome ?Degree pulmonary oedema ?underlying chest infection
+
+COMPARISON:
+Chest x-ray dated [DATE].
+
+FINDINGS:
+Chest ([ADDRESS], lateral) -
+There are small bilateral pleural effusions and peripheral interstitial opacity in both lower zones.
+Patchy opacity medially in the right upper and lower lobes and left lower zone may represent consolidation.
+The heart size is normal.
+
+COMMENT:
+Appearances are most in keeping with pulmonary oedema, however infection is also possible.
+
+Reported in consultation with Dr. [PERSONALNAME].
+"
+P11609_27_10_2571_DICOM_00001012_AAFF6E50_AA7B8C0B_00006733_EE459318,9.7.98.935840.40.411657681493.196.4936231740238,7.0.905.93.9.649936125.6719036,-1,"Chest X-Ray  [DATE]
+
+CLINICAL:
+Postpartum chest pain and shortness of breath
+
+COMPARISON:
+Chest x-ray [DATE]
+
+FINDINGS:
+PA chest -
+The heart size and mediastinal contours are normal.
+The lungs and pleural spaces are clear.
+
+Reported in consultation with Dr. [PERSONALNAME].
+"
+P2360_20_08_2564_DICOM_0000A77E_AA5AF93A_AA8A7AE4_000003CF_EE3F96E6,4.6.55.772910.34.5.7.6.92886293941.1189318657623.2,4.6.615.27.8.1003355905.761066,-1," 
+Clinical data: Pre-operative.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest ([ADDRESS] Erect)
+
+Transverse cardiomegaly with cardiothoracic ratio of [ALPHANUMERICID].  The small [PERSONALNAME] focus in the left mid zone is similar to previous radiograph [DATE] and [DATE]. No pulmonary parenchymal or bony metastases seen. (Compared to previous chest radiograph [DATE], the large mass-like lesion centred at the azygos, has resolved and according to previous CT /[DATE] this had been thought to be due a mediastinal duplication cyst).
+
+Transcribed by: dh
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P1603_23_07_2564_DICOM_00001852_AAF8EA22_AA7656A4_00000578_EE31D3FD,0.6.80.923235.64.3.7.5.57259488718.1006486160967.9,6.9.645.41.3.9812917935.779860,782744 2 1018 8 1014 11 1011 14 1009 17 1006 19 1003 21 1002 22 1001 23 1000 25 997 27 996 28 995 29 994 31 993 30 993 31 993 31 992 32 991 33 991 33 990 34 990 34 990 34 990 34 989 35 989 35 989 35 989 35 988 36 989 35 990 34 991 32 992 32 993 31 994 29 997 27 1000 23 1003 21 1007 17 1011 11," 
+Clinical data: Post removal of chest drain.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+The left sided chest drain has been removed.  A loculated left sided hydropneumothorax is noted.  Heart size is within normal limits.  Bilateral consolidation is noted.  Lungs are otherwise clear. 
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P6378_18_02_2567_DICOM_0000515D_AA983131_AAC02541_000036B8_EE3A6083,6.6.945.116399.0.022.3.0509249709.3022412953.816468,4.6.400.53.6.7414266877.769145,-1," 
+Clinical data:  
+ 
+Medical question:  
+ 
+  
+   
+  
+Chest ([ADDRESS] film for immigration)
+
+No abnormality detected. 
+
+
+Transcribed by: dh
+ 
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P8931_20_03_2569_DICOM_0000D20E_AA8F6CB1_AA2F94A9_0000D162_EE81157B,7.4.53.873924.49.4.8.0.50417968584.1008160380944.2,6.1.64.463604.81.23.1.4.95467.81510.46234.40326992.011016.3427,-1," 
+Clinical data: Hypersensitivity pneumonitis.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST
+
+There is diffuse interstitial opacification on the right and the left lung consistent with the pneumonitis.  The appearance is very similar to that of [DATE].
+
+
+Transcribed by: dh
+  
+ 
+    
+ 
+  
+[PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P6249_16_12_2567_DICOM_00004C1D_AAC493CA_AA29CD50_00005D5B_EEEB2798,3.6.146.058577.3.426.8.8883446796.0591862102.239315,1.0.83.785974.36.19.8.7.22124.61341.78405.77669548.807066.1542,-1," 
+Clinical data: Likely [PERSONALNAME].; ? consolidation.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST  ([ADDRESS] and Lateral) 
+
+Comparison is made to the previous [PERSONALNAME] dated [DATE].
+
+There is ill defined opacification in the periphery of the lower half of the left lung and also involving the base of the left lung and to a lesser extent, a smaller area of opacification at the base of the right lung.  
+On the lateral view, the lower lobes appear clear and there is opacification in the region of the right middle lobe and also the lingular segment of the left upper lobe.  The remainder of the lungs and pleural spaces are clear.
+The heart size and mediastinal contour are within normal limits. 
+
+Comment:
+Bilateral patchy pulmonary opacification consistent with infective consolidation, likely affecting the left upper lobe including the lingular segment and also the right middle lobe.  Follow-up PA and left lateral chest radiographs are recommended in 6 weeks time following treatment to ensure resolution of these changes.
+
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P11570_23_10_2571_DICOM_0000E9FC_AA03C7C2_AA03D298_0000282F_EEFA1960,4.1.90.124572.01.7.7.8.465981782643949.7824843810905.6,2.9.34.220269.07.75.9.3.14034.34710.68832.96079955.159221.5756,-1,"Chest X-Ray  [ALPHANUMERICID], [DATE]
+
+CLINICAL DETAILS:
+Temp, sweats, marked decrease in air entry RLL ? pneumonia.
+
+COMPARISON:
+Chest x-ray dated (PA) [ALPHANUMERICID].
+
+FINDINGS:
+CHEST X-RAY (PA) -
+Both lungs and pleural spaces remain clear.
+Cardiac size remains normal.
+Pulmonary vasculature remains normal.  
+
+COMMENT:
+No consolidation or other new abnormality.
+"
+P9430_02_07_2569_DICOM_0000710B_AA49131D_AA51A03D_0000A9F6_EE601993,9.5.528.384321.0.968.8.1414156964.9742269929.479456,8.6.45.056619.17.61.6.3.71645.15061.12667.55495360.44105.1063,-1,"CHEST
+
+CLINICAL DETAILS:
+Myalgia, reduced appetite and chest discomfort.
+ 
+FINDINGS:
+Comparison is made to an examination from [DATE].
+The heart size is within normal limits.
+The lungs are clear.
+No mediastinal or pleural abnormality is seen.
+Prior CABG is noted.
+
+
+Transcribed by:  wk
+"
+P13697_22_03_2573_DICOM_0000A174_AADC0B8F_AAF287C7_0000AB7A_EE15FBE3,3.1.269.233123.5.274.1.3089180305.9811687377.592084,5.5.34.708967.12.24.1.5.36539.82488.97284.72407809.905842.3274,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+Clinical
+Chest pain.
+Report
+No significant abnormality.
+"
+P9941_22_10_2570_DICOM_00006971_AAF1C4B2_AA664214_00007F21_EE30B1F2,3.2.23.707963.33.1.4.9.56307091445.6226752158524.5,2.7.293.14.4.980688254.6503306,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+Clinical: Elective CABG, preop
+
+Comparison: [DATE]
+
+PA and lateral views of chest. The lungs are again severely hyperinflated, free of acute infiltrate and oedema. No pneumothorax or pleural effusion. Cardiomediastinal silhouette within normal limits for technique. Mild degenerative changes of the thoracic spine.
+"
+P3627_19_10_2565_DICOM_0000B83B_AA0F96A4_AAE69D26_00006974_EE20BCA8,2.9.31.951256.83.2.8.8.08241717246.4726842468433.9,6.9.139.71.2.5689093087.081058,-1," 
+Clinical data: For COSTA STUDY.  ;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest ([ADDRESS] Erect) 
+
+No cardiomegaly.  No active lung lesion seen.  There is a slight concave throacic scoliosis.
+Findings similar to [ALPHANUMERICID] and [ALPHANUMERICID].
+
+
+Transcribed by: LL 
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P13327_19_04_2573_DICOM_0000BB43_AA6EC941_AA43A731_0000EA1E_EEF275EF,3.8.496.212725.0.042.6.2089053778.5394336542.691083,9.1.92.470930.35.46.4.1.79020.69494.64161.68302711.458801.8504,-1,"Chest X-Ray  [ALPHANUMERICID], [DATE]:[DATE]
+
+CLINICAL:
+Metastatic breast cancer. LRTI 2 weeks ago. SOB on rest and increased as infarction. Clear chest
+
+COMPARISON:
+Chest x-ray [ALPHANUMERICID]
+
+FINDINGS:
+Similar bibasal mixed interstitial and airspace opacification with blurring of the cardiac and diaphragmatic silhouettes, and bilateral pleural effusions. There is also some slightly more pronounced airspace opacification in the right upper zone and left mid zone. Overall these changes have been progressing since the middle of [DATE] this year.
+Left mastectomy and axillary clearance clips noted.
+
+COMMENT:
+Differential for these appearances in this patient includes progressive metastatic disease (lymphangitis carcinomatosis) and/or infection.
+
+Reported in consultation with Dr. [PERSONALNAME].
+"
+P10587_30_09_2570_DICOM_000020A0_AA1C0500_AA097881_0000E039_EE6561C3,2.7.72.366794.17.7.4.7.04943468451.4210433625014.8,6.5.111.83.3.003120077.8719938,-1,"Chest X-Ray  [DATE]:[DATE]
+
+Clinical
+Coronary angiography.
+Report
+No significant abnormality.
+"
+P3733_22_07_2565_DICOM_0000452D_AA146D01_AA92E434_00001DD9_EEF46D18,4.2.17.268898.71.1.5.1.38101034187.2362911683370.7,9.7.845.67.4.2201638246.149970,-1," 
+Clinical data: Immigration.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest ([ADDRESS] film for immigration)
+
+No abnormality detected. 
+
+Transcribed by:  dh
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P9608_07_05_2570_DICOM_00000933_AA3CE88E_AAF21461_0000041A_EE73AAF9,0.8.345.581486.7.335.9.8797179778.0261260036.412779,6.2.24.871528.46.50.3.0.97315.64644.9947.45441666.246480.5683,187764 20 984 50 967 63 958 65 955 67 954 68 953 69 952 71 950 72 950 72 949 73 949 73 948 75 947 75 947 75 947 76 945 77 944 79 941 81 940 82 940 82 940 82 940 83 939 83 939 84 938 85 937 85 937 86 937 86 937 85 937 86 937 86 937 85 937 86 937 86 936 86 936 87 935 88 934 88 935 88 935 88 934 88 935 88 935 88 934 88 935 88 934 89 933 90 932 91 931 91 932 91 932 91 931 92 931 92 931 92 930 93 930 93 930 93 930 93 930 93 929 94 929 94 929 94 929 94 929 95 928 95 927 96 927 96 927 96 927 96 927 96 927 96 927 96 926 97 926 97 926 97 926 97 926 97 926 96 927 96 928 95 928 95 928 95 928 96 927 96 927 96 927 97 926 97 926 97 926 98 925 98 925 98 925 99 925 98 925 98 925 99 924 99 925 98 925 99 924 99 924 100 924 99 924 99 924 100 923 100 924 99 924 100 923 100 924 100 923 100 923 101 923 100 923 100 923 101 923 100 923 101 922 101 922 102 921 102 922 102 921 102 921 103 920 104 919 104 920 104 919 104 920 104 919 104 919 105 919 104 919 104 920 104 919 104 920 104 919 104 920 104 919 104 919 105 919 104 919 104 920 104 919 104 920 104 919 104 920 104 920 104 919 105 919 105 918 105 919 105 918 106 918 106 918 106 918 105 919 105 918 106 918 106 918 106 918 105 919 105 918 106 918 106 918 106 918 105 919 105 918 106 918 105 919 105 919 105 919 104 919 105 919 105 919 104 919 105 919 104 920 104 920 103 920 103 921 103 921 102 921 103 921 102 922 102 922 102 922 101 923 101 923 101 923 101 923 100 924 100 923 101 923 100 924 100 924 100 924 100 923 101 923 100 924 100 924 100 924 100 923 101 923 100 923 101 923 101 923 100 923 101 923 101 922 101 923 101 923 101 923 100 924 100 924 100 924 99 925 99 925 99 925 99 924 99 925 99 925 99 925 98 926 98 926 98 926 98 926 98 926 98 926 98 926 98 927 97 927 97 927 97 928 96 928 96 928 96 928 96 929 95 929 95 929 95 930 94 930 94 931 93 931 93 932 93 931 93 931 93 932 92 932 93 932 92 933 91 933 92 933 91 934 90 935 90 934 90 935 89 936 88 938 87 938 86 939 85 941 84 941 82 944 80 946 78 949 75 951 73 954 70 957 67 960 64 964 60 969 55 973 50 978 46 981 43 985 39 990 33 995 29 999 25 1002 22 1006 18 1011 7,"Hand, Chest X-Ray, Facial Bones  
+
+Clinical details:
+Alleged assault. Tender right lower ribs and base of the right first metacarpal. Query right periorbital swelling.
+
+Report:
+Right Hand:
+No acute bony injury is seen. Healed fractures of the thumb metacarpal and neck of the fifth metacarpal are noted.
+
+Chest:
+The heart size is normal. A small pneumothorax is present on the right side with no evidence of tension. A possible small amount of surgical emphysema is present over the right lateral chest wall. (This has been detected time of presentation in ED). No rib fractures are seen.
+The left lung is clear. No mediastinal abnormality is seen.
+
+Facial bones:
+No acute bony injury is seen.
+"
+P2950_04_09_2565_DICOM_00006458_AA5B515A_AAC0E613_0000D45C_EED4C9A2,8.6.29.653410.59.4.4.6.14195299130.6727006923098.8,0.1.830.66.8.8042976658.501332,-1," 
+Clinical data: HTN.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Heart size is enlarged.  Lungs are clear. 
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P13209_16_03_2573_DICOM_00001FA2_AAF66BD6_AAB95457_0000EC2B_EEF3404D,8.6.272.271032.6.828.6.0301331695.1744228559.224393,4.0.84.777693.79.94.6.9.06947.45246.51233.44421305.811046.9697,-1,"Chest X-Ray  [ALPHANUMERICID], [DATE]:[DATE]
+
+Clinical:
+Epigastric pain and bleeding query perforation.
+
+Report:
+The heart size and shape are within normal limits.
+The lungs are clear.
+No mediastinal or pleural abnormality is seen.
+No bone or soft tissue abnormality is seen. No free air is seen beneath the diaphragm.
+"
+P8538_10_07_2569_DICOM_00005E6F_AAEB1376_AA1BEB1E_000045B4_EEFCCC49,7.4.29.926569.50.2.5.7.52932748256.2904054826640.2,6.1.51.661607.38.03.6.0.61797.71612.29340.00144588.932404.4020,-1,"CHEST
+
+CLINICAL DETAILS:
+Cough and SOB, no improvement with oral antibiotics.
+? consolidation.
+ 
+FINDINGS:
+No abnormality is seen in the heart or lungs.
+
+
+Transcribed by:  wk
+"
+P12415_18_03_2572_DICOM_0000AF99_AA2727B6_AA46315B_00003339_EEAFF3CE,7.8.489.506309.0.671.1.4797482432.7091370597.802205,1.2.00.828706.01.44.1.5.18962.73052.93882.79021525.470547.8649,-1,"Chest X-Ray  [ADDRESS]:[ADDRESS] chest
+
+Indication: Productive cough and fever
+
+Findings: Heart and lungs unremarkable.
+"
+P2111_15_04_2564_DICOM_000076BD_AA0B856A_AA4EAA97_0000B9CA_EEF9B45D,8.9.69.736683.19.6.2.2.10696978025.7856746147368.1,4.8.554.44.9.4088174350.837160,-1," 
+Clinical data: Pre op extended right hepatectomy.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest ([ADDRESS])
+
+Comparison:  CT Chest dated [ALPHANUMERICID] from [location] .
+
+The appearance remains similar.
+The cardiomediastinal contour and pulmonary vasculature remain satisfactory.
+Both lungs and both pleural spaces remain clear.
+
+
+Transcribed by: rr
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P6083_23_09_2567_DICOM_00007D7A_AA525CEA_AA790B26_000029D1_EEFF6A3E,9.7.884.310645.2.601.2.7554529952.4815780968.69326,3.8.42.128570.33.86.0.7.25174.19230.79966.37247322.359054.9594,-1," 
+Clinical data: Unwell 2 days, increased coughing, yellow sputum, short episode chest pain, previous CHF.; ? LRTI.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST  ([ADDRESS] and Lateral) 
+
+Comparison is made to the previous [PERSONALNAME] dated [ADDRESS].
+
+The dual lead cardiac pacemaker is again seen in a similar position.
+The heart size is mildly enlarged. 
+There is ill defined increased opacification at both lung bases and minor blunting of both posterior costophrenic recesses.  Overall appearances are suspicious for left ventricular failure.  
+No focal areas of consolidation are seen.
+
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P1209_28_09_2563_DICOM_00006CF4_AAEA6217_AA1784AB_0000443B_EEE0EC99,2.8.32.774691.68.0.8.6.78716500913.0509366819719.2,4.4.028.91.0.3078893149.528305,-1," 
+Clinical data: Recently in [ADDRESS] when became unwell, pneumonia, creps.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+No previous films are available for comparison.  The heart size is within normal limits.  The lungs are well inflated and are clear.
+
+Transcribed by: rr
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P11242_14_04_2571_DICOM_000098CA_AAA080F4_AA474A0F_0000D0B8_EE501CDC,7.4.514.857512.3.068.7.9991564162.5970666898.780864,8.5.42.918236.88.10.9.5.99800.19127.70028.36252074.517451.1646,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+Clinical
+Cough.
+Report
+There is some apparent calcification of lymph nodes around the right and left lung hilum which is likely to be old. There is no recent consolidation seen.
+"
+P2196_18_12_2564_DICOM_0000463C_AAD11FA2_AABA86C1_000094D1_EE81FFE1,8.8.49.093891.78.7.5.7.75589948072.7738005889846.8,4.8.908.90.7.0162715321.015460,-1," 
+Clinical data: Immigration.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Comparison is made with the previous chest x-ray from [DATE].
+The heart size and shape are within normal limits. 
+The lungs are clear.
+
+Transcribed by: rr
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P1857_11_12_2564_DICOM_0000CB64_AAC63E9D_AA65DD28_000034DE_EE843403,9.1.86.569166.87.2.9.4.295942641100447.1153504423250.6,2.5.815.24.4.3346378663.433232,-1," 
+Clinical data: [PERSONALNAME] repair. Cough and increased shortness of breath. ? pneumonia.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Comparison is made to a film from the [ALPHANUMERICID].
+There is bibasal atelectasis and probably small bilateral effusions. Some consolidation is seen behind the right heart border however this is similar to previously. The mid and upper lungs are clear.
+
+Transcribed by: dh
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P9426_02_05_2569_DICOM_0000D832_AA24118D_AA95B593_00000E10_EE85A026,0.6.944.304202.7.179.2.1744539941.2341541649.819662,1.7.50.648650.94.32.8.6.93603.27293.86188.02975108.90626.599,-1," 
+Clinical data: Left-sided chest pain.; ? pneumothorax.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST (Two Frontal Views in Inspiration and Expiration)
+
+No priors.
+
+There is no free air seen under the diaphragm.
+The lungs are clear bilaterally with no focal areas of air space opacification.  The cardiomediastinal silhouette is within normal limits.
+There are no pleural effusions.  The pulmonary vasculature is within normal limits with no evidence of pulmonary oedema.
+No pneumothorax is noted.
+The bony structures and overlying soft tissues are unremarkable.
+
+Impression:
+No acute cardiopulmonary findings. 
+
+
+Transcribed by: dh
+
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P13243_19_03_2573_DICOM_000005E1_AA669487_AA309AC9_00000C23_EE31C862,5.0.91.431474.61.4.3.3.57855065832260.7566736508896.1,6.9.17.914971.94.76.4.9.61145.33772.04852.53844489.770570.7156,-1,"Chest X-Ray  [ALPHANUMERICID], [DATE]:[DATE]
+
+CLINICAL:
+Post chest drain removal.
+
+FINDINGS:
+CHEST X-RAY
+
+Right sided chest drain has been removed, with no pnuemothorax seen.
+Heart size is within normal limits.
+Lungs are clear.
+"
+P8246_03_12_2568_DICOM_000049CA_AA731471_AAC5D739_0000C733_EE43FB96,9.7.301.589491.5.729.3.2020186619.2796838291.054660,3.3.45.137674.29.03.2.7.22096.86195.07141.67539100.665876.1768,-1," 
+Clinical data: Cough and fever.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+Chest
+
+There is interstitial opacification in the left lower lung field suggesting infective change.
+The right lung is clear.
+
+
+Transcribed by: dh
+  
+ 
+    
+ 
+  
+[PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P11548_22_04_2571_DICOM_00008229_AAA16330_AAB3B5E8_0000D4ED_EE144AB5,2.5.151.702852.1.913.6.4194164915.3883444696.947803,2.6.26.303063.30.22.1.5.65747.16550.84054.55253886.871287.2982,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+CLINICAL:
+[age] [gender]. Significant haemoptysis, estimated volume ~4 cups! on therapeutic clexane, bronchoscopy last week (dx lung ca, patient not yet told).
+
+COMPARISON:
+Chest x-ray dated [ALPHANUMERICID].
+
+FINDINGS:
+PA and lateral chest x-ray:
+There has been an increase in the extent of ill-defined opacification in the left upper zone with central lucency, consistent with the known cavitating lesion.
+Small left pleural effusion slightly more prominent.
+The lungs and pleural spaces are otherwise clear.
+No concerning bony lesions seen.
+
+Reported in consultation with Dr. [PERSONALNAME].
+"
+P7298_13_01_2569_DICOM_00008100_AA7D95BF_AA1D6745_0000B9B0_EE3D085F,3.6.30.377285.45.3.6.2.920338752543485.2189584739297.1,1.2.26.254676.69.66.0.7.66531.49678.66760.23960897.083089.9145,256331 11 1009 15 1005 20 1001 23 998 26 995 30 992 32 989 36 985 38 984 39 982 42 980 43 979 44 978 46 976 47 976 47 975 48 974 50 972 51 971 52 970 54 969 54 969 54 968 55 968 55 967 56 966 57 965 58 964 59 963 59 964 59 964 59 963 59 964 59 964 59 964 59 963 60 963 60 963 60 963 60 963 60 964 59 964 58 965 58 965 58 965 58 965 58 966 58 965 58 965 58 966 58 965 58 965 58 966 57 966 56 968 55 968 55 968 55 969 54 969 54 970 52 971 52 972 51 972 51 973 49 975 47 976 46 978 45 978 45 979 44 980 42 981 42 981 42 982 41 982 40 983 40 984 39 984 38 985 38 986 37 986 37 987 36 987 36 988 35 988 35 989 34 989 35 989 34 989 34 990 34 989 34 989 34 990 34 989 35 989 34 989 35 989 34 989 35 989 35 988 35 989 35 988 36 988 35 988 36 988 35 988 36 988 36 987 36 988 36 987 37 987 37 986 38 986 38 985 39 984 40 984 40 983 41 983 41 983 41 982 42 982 42 981 43 981 43 981 43 980 43 981 43 981 43 981 43 981 43 980 44 980 44 980 44 980 45 978 45 979 45 979 45 979 45 978 45 979 45 979 45 979 45 978 46 978 45 979 45 979 45 979 45 978 46 978 46 978 46 978 46 977 46 978 46 978 46 978 45 979 45 979 44 980 44 980 44 980 43 981 43 981 43 981 43 981 42 982 42 982 42 982 42 982 42 981 42 982 42 982 42 982 41 983 41 983 40 984 40 984 40 984 39 986 38 986 38 986 38 986 37 987 37 987 37 987 37 987 37 987 37 988 36 988 36 988 36 988 36 988 36 988 36 988 36 988 36 989 35 989 35 989 35 989 35 990 34 990 34 990 35 989 35 989 35 990 34 990 34 990 34 990 34 991 33 991 33 991 33 991 33 992 32 992 32 993 31 993 31 994 30 994 30 995 29 995 30 995 29 995 29 996 28 997 27 997 27 998 26 998 26 999 25 1000 23 1002 22 1003 21 1003 20 1005 19 1006 17 1009 15 1011 13 1013 6," 
+Clinical data: Right sided chest drain.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST
+
+The position of the drain tube is satisfactory.  There is a persistent pneumothorax in the right apex and base.
+
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+[PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P9963_26_05_2570_DICOM_0000A6BE_AA29AA8D_AA1CD33A_0000123C_EEF56604,9.0.73.780835.54.6.9.8.107846817036375.1065947599104.8,3.5.40.187945.39.12.0.5.53970.59123.37298.20234731.19082.495,-1,"[PERSONALNAME] X-Ray  [date]
+
+Clinical: Preop angiogram
+
+Comparison: [DATE]
+
+PA and lateral views of chest. The lungs are free of infiltrate and oedema. No pneumothorax or pleural effusion. Cardiomediastinal silhouette within normal limits. Minimal degenerative changes of the thoracic spine.
+"
+P10143_17_09_2570_DICOM_00007363_AAA07824_AADAA30D_000000D7_EEACBAF4,0.5.81.789741.34.4.4.3.18349770805.6571199966060.2,6.5.030.47.6.510680289.2335295,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+Clinical
+Haematuria.
+Report
+Both lungs are overinflated consistent with obstructive airways disease. There is no significant focal abnormality.
+"
+P6641_24_08_2567_DICOM_00000176_AA06ADB6_AA0E0623_0000C73B_EE2860E4,6.0.89.259010.34.5.1.3.679269225401521.0735568183543.8,2.3.97.464661.34.85.0.0.31691.15355.09081.08202971.561191.5736,-1," 
+Clinical data: Coronary arteriogram.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST
+
+The heart size is normal.   The lungs and pleural spaces are clear. 
+
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P23_04_04_2563_DICOM_000059C6_AAF429F5_AAD61AE1_0000E23F_EE6EAA32,3.8.73.153178.70.0.6.8.87445144524.0036386179769.1,5.8.912.40.3.5223467868.295496,-1," 
+Clinical data: ? asthma.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+A [ADDRESS] chest [PERSONALNAME] has been performed. The heart size is within normal limits. The lungs are clear. There is no focal area of consolidation nor collapse. No peribronchial cuffing is seen.
+
+Transcribed by: dh
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P12478_01_02_2573_DICOM_00006761_AAF8D7A3_AA88C187_0000BFCA_EE5D3BFF,9.5.27.390211.64.6.7.4.25012056138979.8560871916653.4,5.3.784.93.1.130184217.4420308,229669 75 923 105 911 116 899 125 893 126 894 121 896 122 896 124 898 122 899 122 899 123 897 124 896 125 897 125 896 125 896 126 896 126 895 127 895 128 894 128 894 128 894 128 893 129 893 129 892 130 892 130 892 131 891 131 891 131 890 132 890 133 888 134 888 134 888 135 888 134 889 134 888 134 889 133 890 132 891 132 891 131 892 130 893 129 894 129 894 128 895 127 896 127 896 126 897 126 897 125 898 124 899 123 900 123 900 122 901 122 901 122 901 121 902 121 903 120 903 120 903 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 904 119 905 118 905 118 905 118 906 117 906 117 906 117 906 117 906 118 906 117 906 117 906 118 905 118 905 118 905 118 905 118 906 117 906 118 905 118 905 118 905 118 906 117 906 117 906 117 907 116 907 116 907 116 908 115 908 116 907 116 908 115 908 116 907 116 908 115 908 115 909 115 908 115 909 114 909 115 908 115 909 114 909 114 909 115 909 114 909 114 909 115 909 114 909 114 909 114 910 113 910 113 911 112 911 112 912 111 912 111 913 110 913 110 914 109 915 108 915 108 916 107 916 107 917 106 918 106 917 106 918 105 918 105 919 104 919 104 920 104 919 104 920 103 920 103 921 103 921 102 922 102 921 102 922 102 922 101 923 101 922 102 922 102 922 102 921 103 921 103 920 104 920 104 920 104 919 105 919 105 919 105 919 105 919 106 918 106 918 106 918 106 918 107 916 108 916 108 916 109 915 109 915 109 915 110 914 110 914 110 913 112 912 112 912 112 912 112 912 113 911 113 911 113 911 113 911 114 909 115 909 115 909 115 909 116 908 116 908 116 908 116 908 117 907 117 908 116 908 117 907 117 907 118 906 118 906 118 906 119 905 119 905 119 906 119 905 119 905 119 905 120 904 120 904 120 904 121 903 121 904 120 904 121 903 121 903 122 903 121 903 121 903 122 902 122 902 122 903 122 902 122 902 123 901 123 902 122 902 123 901 123 901 123 902 123 901 123 901 124 901 123 901 123 902 123 901 123 901 123 902 123 901 123 902 123 901 123 902 122 902 123 902 122 902 123 902 122 903 122 902 123 902 122 903 122 902 122 903 122 903 122 903 121 904 121 904 121 904 120 905 120 905 120 905 120 905 119 907 118 907 118 907 118 907 118 908 116 910 115 911 114 911 113 913 112 914 111 915 108 918 105 922 101 926 97 931 92 936 83 947 70 962 58 975 43,"Chest X-Ray  [DATE]:[DATE]
+
+CLINICAL DETAILS:
+Right spontaneous pneumothorax - conservative management. Repeat x-ray in 2 weeks prior to respiratory outpatient clinic.
+
+COMPARISON:
+Chest x-ray dated (PA) [ALPHANUMERICID].
+
+FINDINGS:
+CHEST X-RAY (PA) -
+Right pneumothorax has decreased in size this is and apex now 42 mm, previously 63 mm.
+Similar appearance for the small amount of layering fluid at the right base.
+Rest of the lungs and the left pleural space remain clear.
+
+Cardiac size remains normal.
+Pulmonary vasculature remains normal.
+No free air under the diaphragm.  
+Bones and joints remain well-preserved.
+
+COMMENT:
+Mild reduction for the right apical pneumothorax with similar small amount of fluid in the right pleural space.
+"
+P9618_06_06_2570_DICOM_0000A778_AAAA9997_AA68F787_00005CDE_EE7E9C8B,5.7.808.055964.2.794.3.5749894890.7719890339.865549,7.7.45.414151.45.72.9.8.18104.61330.25139.18974340.770834.9790,597087 29 985 50 967 67 954 78 942 86 936 92 930 96 926 101 921 105 917 109 914 111 912 113 910 115 908 117 906 119 904 121 902 123 900 124 900 124 899 126 897 127 897 127 896 128 895 130 894 130 893 131 893 132 892 132 891 133 891 133 890 134 890 134 890 134 889 135 889 135 888 136 888 136 888 135 889 135 889 135 888 136 888 136 888 136 888 136 888 136 887 137 887 137 887 136 888 136 888 136 888 136 888 136 888 135 889 135 889 135 889 135 889 135 889 135 889 135 889 135 889 135 889 135 889 135 889 135 889 135 889 135 890 135 889 135 889 135 889 135 889 135 890 134 890 134 890 134 890 134 890 134 891 134 890 134 890 134 891 133 891 133 891 134 891 133 891 133 891 133 892 132 892 133 892 132 892 132 892 133 892 132 892 132 893 131 893 132 892 132 893 131 893 132 892 132 893 131 893 131 893 131 893 132 893 131 893 131 893 131 894 130 894 131 893 131 893 131 893 131 894 130 894 131 893 131 893 131 893 131 894 130 894 131 893 131 894 130 894 130 894 130 895 130 894 130 894 130 895 129 895 130 894 130 895 129 895 130 894 130 894 131 894 130 894 130 894 131 894 130 894 131 893 131 894 131 893 131 893 132 892 133 892 132 892 133 891 133 892 133 891 133 891 134 890 134 891 133 891 134 890 134 890 135 889 135 890 135 889 135 890 135 889 136 888 136 889 136 888 137 888 136 888 137 887 138 887 137 887 138 887 138 887 137 887 138 887 138 887 137 887 138 887 138 887 137 888 137 888 137 887 138 887 137 888 137 888 137 888 137 888 137 887 138 887 137 888 137 888 137 887 138 887 138 887 138 887 138 886 139 886 139 886 139 886 139 885 140 885 140 885 140 885 140 885 140 885 140 884 141 884 141 884 141 884 140 885 140 885 140 885 140 885 139 886 139 886 139 886 139 886 140 885 140 885 140 885 141 884 141 884 142 883 143 882 144 881 145 880 145 881 144 881 144 881 144 881 145 880 145 880 145 880 145 880 145 880 146 879 146 879 146 879 147 878 147 878 147 878 148 877 148 877 148 876 150 875 151 874 152 872 154 871 155 870 157 867 160 865 163 861 166 859 167 858 168 856 170 855 171 854 172 852 174 851 175 850 176 849 176 849 177 847 179 846 180 845 181 844 182 843 183 843 183 843 183 842 185 841 186 840 188 838 189 838 188 838 188 839 187 839 187 839 187 839 187 840 186 841 185 842 184 843 184 842 185 842 185 841 186 841 187 840 188 839 190 837 192 834 195 832 199 827 207 820 214 52 29 733 231 11 57 728 301 726 303 724 305 722 307 720 309 719 312 715 319 708 326 702 332 32 29 634 400 627 405 622 407 620 409 622 407 627 402 142 8 479 400 130 19 481 399 122 25 486 396 114 30 494 393 104 35 499 396 92 39 502 401 80 43 505 406 68 46 509 411 55 49 513 428 31 53 515 435 17 57 518 507 520 504 524 501 526 498 530 495 534 489 540 483 546 478 554 469 562 461 568 455 577 447 587 436 598 423 611 408 646 370 662 356 672 350 679 343 686 98 11 227 737 42 29 213 750 27 44 201 762 9 62 9 31 148 886 136 894 127 901 121 906 116 912 110 919 101 928 91 938 37 995 19,"Chest X-Ray  [date].
+
+CLINICAL DETAILS:
+Recurrent cough and left-sided chest pain this year, nonsmoker ?Pleuritic
+
+COMPARISON:
+None available.
+
+FINDINGS:
+There is a large left-sided apical pneumothorax with a maximum depth of 45 mm. Both lungs and pleural spaces are otherwise clear. 
+The heart size and mediastinal contours are within normal limits.
+
+Review of the online medical record indicates the patient presented to the emergency Department with a spontaneous pneumothorax.
+
+Reported in consultation with Dr. [PERSONALNAME].
+
+"
+P10216_19_08_2570_DICOM_00002310_AA41DA90_AAF69B4C_0000EF91_EE20B5C4,5.6.217.775381.3.560.2.6333189815.0316100911.069141,6.4.05.368548.29.42.7.5.50434.19251.46834.24568776.481124.2496,-1,"Chest X-Ray  [ALPHANUMERICID], [date]
+
+CLINICAL DETAILS:
+Acute confusional state.
+
+COMPARISON:
+None available.
+
+FINDINGS:
+The heart size and mediastinal contours are within normal limits.
+There is a small amount of patchy opacity in the left lower zone, which could be in keeping with early infective change. The lungs and pleural spaces are otherwise clear.
+
+
+Reported in consultation with Dr. [PERSONALNAME].
+
+"
+P5478_30_04_2566_DICOM_0000E05E_AABD1A0B_AA9EB945_00000AC1_EE261699,4.8.85.389966.25.2.2.6.69727362189.3044720003414.6,2.4.728.21.6.1598075009.162360,-1," 
+Clinical data: Pre-op for ureteric stent insertion.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+Chest ([ADDRESS] and Lateral Views)
+
+Comparison is made to previous Xray dated [DATE].
+
+The heart size is within normal limits.
+There is fibrotic change at the left lung base laterally but no active pulmonary abnormality is seen.
+
+Transcribed by: dh
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P4488_07_06_2566_DICOM_0000A475_AAF95FAB_AAF260C5_0000BCA0_EEEA1039,7.5.16.203320.10.1.9.2.13753979056.5306447935205.1,9.5.252.09.6.7684063942.057647,-1," 
+Clinical data: Pleuritic chest pain.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Heart size is within normal limits.  Lungs are clear. 
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P7035_05_02_2569_DICOM_0000C0FA_AA05D43A_AAB33BED_00004FB4_EEABDE39,4.0.29.783960.65.3.1.3.478032022687592.0784938990579.0,7.7.97.357998.64.65.1.4.77214.34127.88057.59592479.575729.0999,597235 6 1012 14 1006 21 998 28 992 33 987 37 985 40 981 44 977 47 975 50 971 54 968 55 967 57 965 58 964 59 963 61 961 62 961 63 960 63 959 64 959 65 958 65 958 65 958 66 957 66 957 66 957 67 956 67 957 66 957 67 956 67 957 67 956 67 956 68 956 68 956 67 956 68 956 67 956 68 956 68 956 67 956 68 956 68 956 68 955 68 956 68 955 69 955 69 955 69 954 69 955 69 955 69 955 68 955 69 955 68 956 68 956 68 955 68 956 68 956 68 956 68 956 67 956 68 956 68 956 68 956 67 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 67 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 956 68 957 67 957 67 957 67 957 67 957 67 957 67 957 67 957 66 959 65 959 65 959 65 959 65 959 65 959 65 959 65 959 64 960 64 961 63 961 63 961 63 961 63 962 62 962 62 962 62 962 61 964 60 964 60 964 60 964 59 966 58 966 58 966 58 966 57 968 56 968 56 968 56 968 55 970 54 970 54 970 54 970 54 970 53 972 52 972 52 972 52 973 50 974 50 975 49 975 49 975 48 977 47 977 47 977 47 978 46 978 46 979 45 979 45 979 44 981 43 981 43 982 42 982 42 983 41 983 41 984 40 984 40 985 39 986 38 986 38 987 37 988 36 988 36 989 35 990 34 991 33 991 33 992 32 993 31 993 31 994 30 995 29 996 28 997 28 997 27 998 26 999 25 1000 24 1001 24 1001 23 1002 22 1003 21 1004 21 1004 20 1005 19 1006 19 1006 18 1006 19 1006 18 1007 17 1008 17 1008 16 1009 16 1009 15 1010 15 1010 15 1010 14 1011 14 1011 14 1011 13 1012 13 1012 13 1012 12 1013 12 1013 12 1013 12 1013 11 1014 11 1014 11 1014 10 1015 10 1015 10 1015 10 1015 9 1016 9 1016 9 1016 8 1017 8 1017 8 1017 8 1017 7 1018 7 1018 7 1018 6 1019 6 1019 6 1019 5 1020 4 1021 4 1022 2 1023 1 1024 1," 
+Clinical data: [PERSONALNAME] drain removal.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+[PERSONALNAME]
+
+There is a persisting pneumothorax on the left side with subcutaneous emphysema over the lateral chest wall on the left.
+
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+[PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P3252_12_05_2565_DICOM_000034CC_AA86598E_AA2F1046_0000DB9D_EE7930B3,1.8.54.914527.31.3.1.4.798412604051434.8026751750448.4,9.6.683.40.6.7583530858.810761,-1," 
+Clinical data: Recent URTI.  Previous industrial exposure.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Comparison is made to the previous film from [DATE].
+The heart size and shape are within normal limits.  The lungs are clear.  The mediastinal contour and pleural spaces appear satisfactory.  
+
+Transcribed by: rr
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P11215_26_08_2571_DICOM_00005675_AA9D723A_AAFDA1CF_00000397_EE8B899A,4.2.063.428938.7.432.8.2545112922.8306265512.932093,2.3.99.752780.27.36.1.2.08454.84484.41562.88106504.374509.7771,-1,"Chest X-Ray  [DATE]
+AP upright chest.
+
+Indication: Post chemo. Febrile and cough
+
+Findings: Heart normal in size. Lungs clear.
+"
+P1817_09_06_2564_DICOM_0000DC9A_AA33ED70_AA2CB8DF_0000D2BA_EEE7A409,5.4.82.787394.76.7.3.2.60571708017.0226424826744.8,6.5.898.48.2.1976056094.887934,-1," 
+Clinical data: Pre op rigid cystoscopy and Botox injection.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest  ([ADDRESS])
+
+Comparison:  Chest x-ray (PA) dated [DATE].
+
+The appearance remains similar.  
+The cardiac size and pulmonary vasculature remain satisfactory.  Similar appearance remains for the moderate calcification of the mitral valve and for the air-fluid level in the mildly to moderately dilated oesophagus.  
+Both lungs and both pleural spaces remain clear and hyperinflated, suggestive of an element of COPD.
+
+Transcribed by: rr
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P2802_01_12_2566_DICOM_00008ADC_AAFD4844_AA1DFF2C_00004B29_EE665C00,6.3.97.283469.96.7.2.9.59750089257.2297790117099.5,6.4.722.46.2.5158514999.187746,548073 12 1008 20 1000 28 994 34 987 40 982 43 979 46 977 49 974 51 971 54 969 56 967 57 966 58 965 59 964 61 962 62 961 63 960 64 959 66 958 65 958 66 957 67 956 67 956 68 955 68 955 69 954 70 953 70 953 70 953 70 953 70 954 69 954 69 954 69 955 68 955 68 955 68 956 67 956 67 957 66 957 66 958 65 958 65 959 64 959 64 960 63 961 62 962 61 962 60 964 59 965 58 966 57 966 57 967 56 968 55 969 54 970 53 971 52 972 51 973 50 974 49 974 49 976 47 977 46 978 46 978 46 978 46 978 46 978 46 978 46 978 46 979 45 979 46 978 46 978 46 978 46 978 46 978 46 978 46 979 45 979 45 979 46 978 46 979 46 978 46 978 47 977 47 977 48 977 47 977 48 976 48 976 49 976 48 976 49 975 50 974 50 975 50 974 50 974 51 973 51 974 51 973 51 973 52 972 52 973 52 972 52 973 52 972 52 973 52 972 53 972 52 972 53 972 52 973 52 972 52 973 52 973 51 973 52 973 51 974 51 974 50 974 51 974 50 975 50 974 50 975 50 975 49 976 49 976 48 977 47 978 47 978 46 979 46 979 45 980 44 981 44 980 44 981 44 981 43 982 43 982 43 982 42 982 43 982 42 983 42 983 41 984 41 983 41 984 41 984 40 984 41 984 40 985 40 985 39 986 39 986 38 986 39 986 38 987 38 987 38 987 37 988 37 988 37 988 36 989 36 989 36 989 35 990 35 990 34 991 34 991 34 991 33 993 32 993 32 993 31 995 30 995 30 996 28 997 28 997 28 998 27 998 27 999 25 1000 25 1000 25 1001 24 1001 24 1002 23 1003 22 1004 21 1004 21 1005 20 1006 19 1006 19 1007 18 1007 18 1008 17 1008 17 1008 17 1009 16 1009 16 1010 14 1011 14 1011 14 1012 13 1012 13 1013 12 1013 12 1013 11 1015 10 1015 10 1016 9 1016 8 1017 8 1018 6 1019 5 1021 4 1022 2 1024 1," 
+Clinical data: Post-operative.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST ([ADDRESS] Erect) 
+
+Compared to previous chest radiographs the left intercostal drainage tube has been removed and there is a small left apical pneumothorax.  There is bilateral basal patchy consolidation involving the basal segments of the lower lobe.  No abnormality of the upper zones detected.
+(There is slight surgical emphysema on the left lateral chest wall.)
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P2556_31_10_2564_DICOM_0000C1DF_AA75C512_AA391E69_000050CC_EEDBB713,6.5.49.570026.99.9.0.3.23995566344.1344188434148.9,5.5.014.17.1.2770161889.126550,-1," 
+Clinical data: PHx Hodgkins.  Now intermittent discomfort left rib margin.;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest
+
+Heart size is within normal limits.  Lungs are clear.  Two surgical clips are projected over the right hilum.
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P910_16_08_2565_DICOM_0000CD33_AAA76646_AA067BFE_0000776F_EEED074B,9.9.85.215316.73.1.4.1.74457510654.9560955611633.6,6.3.594.60.2.4493617912.429689,-1," 
+Clinical data: Dyspnea, productive cough.  ;  
+ 
+Medical question:  
+ 
+  
+   
+  Chest x-ray (PA, lateral)
+
+Comparison:  Chest x-ray (PA) dated [ALPHANUMERICID] and (PA, lateral) dated [ALPHANUMERICID].
+
+The cardiac size remains within normal limits. The pulmonary vasculature remains satisfactory.  
+[PERSONALNAME] fibrosis remains at both bases.  Similar appearance remains for the apparent radiolucency just superior to the left hemidiaphragm.  The rest of both lungs and both pleural spaces remain clear.  
+Similar appearance remains for the moderate thoracic scoliosis, convex to the left at T8.  
+Similar position remains for the CABG surgical material.
+
+Comment:  No new focal consolidation is seen.  
+
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P1308_31_01_2563_DICOM_0000FD1E_AABB054D_AA0F916D_00002F67_EE8FD146,8.8.98.806793.28.3.3.8.57050736281.4369110266455.5,9.9.470.76.6.1405437591.398612,-1," 
+Clinical data: Sudden onset sharp central CP;  
+ 
+Medical question: to r/o pneumothorax.;  
+ 
+  
+   
+  CXR - PA
+
+No previous film for comparison
+
+The cardiac and mediastinal contours are normal. The lungs are clear and there is no pneumothorax.
+
+Reported in consultation with Dr. [PERSONALNAME]
+  
+ 
+    
+ 
+  
+Dr [PERSONALNAME]  Dr. [PERSONALNAME] 
+[PERSONALNAME] 
+
+"
+P5520_31_05_2566_DICOM_00003933_AA51751B_AAEC4FA4_0000B04F_EE1759F5,1.5.21.421884.85.5.7.9.522033919323589.4627872801643.5,2.5.470.51.3.9611640907.212360,-1," 
+Clinical data: [PERSONALNAME] insertion.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+Chest
+
+There is no complication of the pacemaker insertion.  Leads are in satisfactory position.
+
+
+Transcribed by: dh 
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P12628_24_03_2572_DICOM_0000BCEB_AA22D078_AAE58959_0000C923_EEDD107A,0.2.94.025103.23.1.1.9.27286258092.7363855783157.8,2.9.480.95.6.743741213.2898349,-1,"Chest X-Ray  [ALPHANUMERICID], [DATE]:[DATE]
+
+
+Left pneumothorax.
+Report
+On the current film both lungs appear inflated.
+"
+P6130_13_06_2567_DICOM_00008FDA_AA39BF84_AAAB76A1_0000949D_EEA3B9B2,1.8.73.757540.25.1.9.7.40767885118.6251654622738.6,4.0.362.38.8.3890870609.325251,-1," 
+Clinical data: SOB.  Follow-up.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+Chest ([ADDRESS] Erect) 
+
+Compared to previous chest radiograph [DATE] there is only very minimal residual interstitial pattern at the basal regions and the lung fields are otherwise clear of active disease.  No cardiomegaly.
+
+
+Transcribed by: dh
+  
+ 
+    
+ 
+  
+Dr. [PERSONALNAME] 
+[PERSONALNAME]   
+
+"
+P9045_20_02_2569_DICOM_0000149D_AAAC8488_AA19FAF6_00005BCC_EE399B2D,9.0.50.260784.31.9.4.0.630872813117123.1895087386200.2,1.4.31.183940.51.92.7.0.13877.50679.29801.15439783.977083.4190,-1," 
+Clinical data: COPD, right pleural thickening.;  
+ 
+Medical question:  
+ 
+  
+   
+  
+CHEST
+
+The fibrosis in the right costophrenic angle is similar to previously.
+There is no other significant abnormality focally.
+
+
+Transcribed by:  wk
+  
+ 
+    
+ 
+  
+[PERSONALNAME] 
+[PERSONALNAME]   
+
+"
