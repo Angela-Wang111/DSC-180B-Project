@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import pydicom as dicom
+# import pydicom as dicom
 
 def SOPInstanceUID_to_Mask_Path(SOPInstanceUID):
     """
