@@ -21,7 +21,9 @@ Compare the classification performance of
 - 2-channel mask with original xray value + probability mask
 
 ## Documentation
-The useful files for checkpoint testing phase are: run.py, src(folder), test(folder), and outpout(folder). 
+The useful files for checkpoint testing phase are: run.py, submission.json, src(folder), test(folder), and outpout(folder). 
+### submission.json
+Contains the URLs for this Github Repository and the DockerHub Repository used for building a docker image for this pipeline.
 ### run.py
 This is the main .py file for executing the whole pipeline from data preprocessing to training and test both classification model (ResNet 34) and segmentation model (ResNet 34 + U-Net). To run it, just run `python run.py` in the terminal (and hope everything goes fine :crossed_fingers: ).
 ### src
