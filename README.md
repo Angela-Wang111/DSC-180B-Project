@@ -22,6 +22,14 @@ Compare the classification performance of
 
 ## Documentation
 The useful files for checkpoint testing phase are: run.py, submission.json, src(folder), test(folder), and outpout(folder). 
+
+:heavy_exclamation_mark:Execution instruction (in terminal):
+1. `ssh <username>@dsmlp-login.ucsd.edu`
+2. `launch.sh -i angela010101/quarter1:latest -c 8 -m 64 -g 1` at least 1 GPU and 64 GB memory is needed
+3. `git clone https://github.com/Angela-Wang111/Pneumothorax_classification` (first time execution only)
+4. `cd Pneumothorax_classification`
+5. `python run.py`
+6. :crossed_fingers:
 ### submission.json
 Contains the URLs for this Github Repository and the DockerHub Repository used for building a docker image for this pipeline.
 ### run.py
