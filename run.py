@@ -18,12 +18,17 @@ from data_preprocessing import decode_mask
 
 from generate_train_val_test_csv import generate_three_csv
 
+
+
 def main():
     """
     Run the main project pipeline logic
     """
+    # Data Preprocessing
     decode_mask("test/testdata/Pneumothorax_reports_small.csv", "test/testdata/masks/")
     generate_three_csv("test/testdata/Pneumothorax_reports_small.csv")
+    # Generate Data Loader
+    
     
     
 if __name__ == '__main__':

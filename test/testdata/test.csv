@@ -1,0 +1,11 @@
+,Mask_Path,XRay_Path
+91,test/testdata/masks/negative_mask.png,test/testdata/images/4.2.063.428938.7.432.8.2545112922.8306265512.932093.png
+74,test/testdata/masks/negative_mask.png,test/testdata/images/9.7.884.310645.2.601.2.7554529952.4815780968.69326.png
+86,test/testdata/masks/negative_mask.png,test/testdata/images/3.8.73.153178.70.0.6.8.87445144524.0036386179769.1.png
+82,test/testdata/masks/negative_mask.png,test/testdata/images/2.5.151.702852.1.913.6.4194164915.3883444696.947803.png
+20,test/testdata/masks/negative_mask.png,test/testdata/images/4.1.12.077178.72.0.4.1.15427376124.9176203344077.6.png
+60,test/testdata/masks/negative_mask.png,test/testdata/images/3.6.146.058577.3.426.8.8883446796.0591862102.239315.png
+71,test/testdata/masks/negative_mask.png,test/testdata/images/7.4.29.926569.50.2.5.7.52932748256.2904054826640.2.png
+14,test/testdata/masks/6.3.97.283469.96.7.2.9.59750089257.2297790117099.5.png,test/testdata/images/6.3.97.283469.96.7.2.9.59750089257.2297790117099.5.png
+92,test/testdata/masks/negative_mask.png,test/testdata/images/5.4.82.787394.76.7.3.2.60571708017.0226424826744.8.png
+51,test/testdata/masks/negative_mask.png,test/testdata/images/1.4.74.046537.05.8.2.0.70950249050.4944360409992.9.png
