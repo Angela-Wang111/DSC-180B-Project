@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import pydicom as dicom
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import seaborn as sns
@@ -19,10 +18,10 @@ import cv2
 from tqdm.notebook import tqdm
 
 
-import warnings
-warnings.filterwarnings('ignore')
+# import warnings
+# warnings.filterwarnings('ignore')
 
-import segmentation_models_pytorch as smp
+# import segmentation_models_pytorch as smp
 
 
 from sklearn.metrics import roc_curve
