@@ -34,6 +34,7 @@ This file contains functions to create dataframe from .csv file like "test/testd
 #### build_classification_model.py
 This file contains functions to build customized pretrained ResNet 34 model and train/validate ResNet 34 model.
 #### evaluate_test.py
+*evaluate_test_empty.py* for now. Wait for later implementation.
 This file contains fucntions to perform the classification on the test set, and evaluate the predication with metrics like confusion matrix and AUC-ROC score.
 
 ### test
