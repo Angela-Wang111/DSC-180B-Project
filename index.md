@@ -1,9 +1,7 @@
-# Abstract
-
 # Introduction
 
 # Method
 
 # Result
 
-# Discussion
+# Conclusion
