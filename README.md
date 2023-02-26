@@ -20,6 +20,9 @@ Compare the classification performance of
 - prabability mask as input for classfication model
 - 2-channel mask with original xray value + probability mask
 
+## Website
+If you just want to have an idea of what this project is about without seeing all these codes (which I understand :stuck_out_tongue_winking_eye:), click here :point_right: https://angela-wang111.github.io/Pneumothorax_classification/
+
 ## Documentation
 The useful files for checkpoint testing phase are: run.py, submission.json, src(folder), test(folder), and outpout(folder). 
 
