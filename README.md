@@ -7,12 +7,13 @@ GROUP NAME: AC/DS :metal: (Angela + Cecilia -> AC, Data Science -> DS, AC/DC -> 
 **Be Calm and Write Code Cecilia :innocent:**
 
 ## Goal :pray:
+- [x] Birthday (Angela) :birthday:
 - [x] Classification Final Results
 - [x] Segmentation Final Results
 - [ ] Cascade Final Results
 - [ ] Poster [03/09 DDL]
 - [ ] Website/Report/Code [03/14 DDL]
-- [ ] Presentation/BIRTHDAY :birthday: [03/15 DDL]
+- [ ] Presentation/Birthday (Cecilia) :birthday: [03/15 DDL]
 
 ### Current ensemble approach
 1. Binarized mask
