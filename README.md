@@ -7,10 +7,11 @@ GROUP NAME: AC/DS :metal: (Angela + Cecilia -> AC, Data Science -> DS, AC/DC -> 
 **Be Calm and Write Code Cecilia :innocent:**
 
 ## Goal :pray:
-Compare the classification performance of 
-- classfication model e.g. resnet 34
-- segmentation model e.g. resnet 34 + unet, after setting hard cutoff for binarization threshold & minimum activation size
-- ensemble model with segmentation model + classification model
+- [x] Classification Final Results
+- [x] Segmentation Final Results
+- [ ] Cascade Final Results
+- [ ] Poster [03/09 DDL]
+- [ ] Website/Report/Code [03/14 DDL]
 
 ### Current ensemble approach
 1. Binarized mask
