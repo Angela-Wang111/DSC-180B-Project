@@ -51,4 +51,12 @@ def generate_three_csv(input_csv_path):
           10-(test_set['Mask_Path'].str.contains("negative").sum()))
     test_set.to_csv("test/testdata/test.csv")
     
+    # For the train dataframe, we split them into positive part and negative part to address the imbalance during training process
+    train_pos = train_set[~train_set['Mask_Path'].str.contains("negative")]
+    train_pos.to_csv("test/testdata/train_pos.csv")
+    
+    train_neg = train_set[train_set['Mask_Path'].str.contains("negative")]
+    train_neg.to_csv("test/testdata/train_neg.csv")
+         
+    
     return
