@@ -16,7 +16,7 @@ def SOPInstanceUID_to_Path(SOPInstanceUID):
 
 
 
-def generate_three_csv(input_csv_path):
+def generate_four_csv(input_csv_path):
     """
     Main function to take the sample original csv, split into 8, 1, 1, and then save three desired CSV files. 
     """

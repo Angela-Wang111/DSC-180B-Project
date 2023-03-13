@@ -123,7 +123,7 @@ def plot_save_both_loss(all_train_loss, all_val_loss, model_type, model_name, mo
 
 
 def training_class(model, num_epochs, batch_size, learning_rate, 
-                    train_loader, val_loader, model_name, model_type):
+                    val_loader, model_name, model_type):
     
     model.to(DEVICE)
     
@@ -202,7 +202,7 @@ def training_class(model, num_epochs, batch_size, learning_rate,
 
 
 def training_seg(model, num_epochs, batch_size, learning_rate, 
-                    train_loader, val_loader, test_loader, val_threshold, model_name, model_type):
+                    val_loader, test_loader, val_threshold, model_name, model_type):
     """
     Main training function to train the first part of the ensemble model, which is the segmentation model.
     """
