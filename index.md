@@ -88,7 +88,12 @@ In order to compare all the models fairly, we computed the recall and F1 scores 
 <center>
 <figure>
 <img src="website_fig/all_models.png" alt="Trulli" style="width:100%">
-<figcaption align = "center"><b>Fig 7: Overall Model F1 and Recall Performance </b></figcaption>
+<figcaption align = "center"><b>Fig 7: Recall vs F1 scores of all tested models. RN34: ResNet 34, EB3: EfficientNet-B3, UN: UNet,
+ResNet34/UN: ResNet 34 as encoder & UNet as decoder, EB3/UN: EfficientNet-B3 as encoder &
+UNet as decoder, RN34/UN/EB3: cascade of ResNet34/UN segmentation model + EfficientNet-B3
+classification model. All the structures with three labels have the first model as the encoder, the
+second model as the decoder, and the third model being the classification model in the cascade
+model. </b></figcaption>
 </figure>
 </center>
 
