@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Dynamic Stock Industry Classification"
+categories: main
+---
+
+
 # This is Changed Title!!!
 Pneumothorax is bad bad!!
 # Method
