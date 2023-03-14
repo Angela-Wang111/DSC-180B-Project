@@ -48,7 +48,7 @@ We tested two classification models, two segmentation models, and four cascade m
  
 <center>
 <figure>
-<img src="website_fig/flowchart.png" alt="Trulli" style="width:70%">
+<img src="website_fig/flowchart.png" alt="Trulli" style="width:100%">
 <figcaption align = "center"><b>Fig 3: An illustration of three different model structures. </b></figcaption>
 </figure>
 </center>
@@ -87,7 +87,7 @@ In order to compare all the models fairly, we computed the recall and F1 scores 
 
 <center>
 <figure>
-<img src="website_fig/all_models.png" alt="Trulli" style="width:70%">
+<img src="website_fig/all_models.png" alt="Trulli" style="width:100%">
 <figcaption align = "center"><b>Fig 7: Overall Model F1 and Recall Performance </b></figcaption>
 </figure>
 </center>
@@ -100,6 +100,6 @@ Based on our investigation, cascade models that pipe segmentation and classifica
 
 
 # References
-Feng, Sijing et al. “Curation of the CANDID-PTX Dataset with Free-Text Reports.” Radiology. Artificial intelligence vol. 3,6 e210136. 13 Oct. 2021, doi:10.1148/ryai.2021210136
+Feng, Sijing et al. “Curation of the CANDID-PTX Dataset with Free-Text Reports.” *Radiology. Artificial intelligence* vol. 3,6 e210136. 13 Oct. 2021, doi:10.1148/ryai.2021210136
 
-Feng, Sijing et al. “Automated pneumothorax triaging in chest X-rays in the New Zealand population using deep-learning algorithms.” Journal of medical imaging and radiation oncology vol. 66,8 (2022): 1035-1043. doi:10.1111/1754-9485.13393
+Feng, Sijing et al. “Automated pneumothorax triaging in chest X-rays in the New Zealand population using deep-learning algorithms.” *Journal of medical imaging and radiation oncology* vol. 66,8 (2022): 1035-1043. doi:10.1111/1754-9485.13393
