@@ -13,20 +13,17 @@ from torch.utils.data import DataLoader
 from torchvision import transforms, models
 from torch.optim import Adam
 
-
 import cv2
 from tqdm import tqdm
-
 
 from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_auc_score
 from scipy.stats import pearsonr
 from sklearn.metrics import confusion_matrix
 
-## Hyperparameters
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(DEVICE)
-print(torch.cuda.device_count())
+from create_dataloader import create_train_loaders
+from create_dataloader import read_df
+
 
 
 class resnet34(nn.Module):
@@ -113,27 +110,33 @@ def plot_save_both_loss(all_train_loss, all_val_loss, model_type, model_name, mo
     plt.xlabel('Epoch Number')
     title = 'BCE Loss of {} model, {}'.format(model_type, model_name)
     plt.title(title)
-    plt.show()
     
     fig = train_val_loss.get_figure()
     fig.savefig('output/both_loss/{}_type{}.png'.format(title, model_schedule), dpi=400)
+    
+    plt.show()
+    plt.close(fig)
 
 
         
 
 
 def training_class(model, num_epochs, batch_size, learning_rate, 
-                    val_loader, model_name, model_type):
+                    val_loader, model_name, model_type, resolution, num_workers, pin_memory, drop_last, model_prev=None):
     
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(DEVICE)
     
     all_train_loss = []
     all_val_loss = []
 
     optimizer = Adam(model.parameters(), lr=learning_rate)
+    loss_fn = torch.nn.BCEWithLogitsLoss()
+
+    pos_df = read_df('train_pos', model_prev)
+    neg_df = read_df('train_neg', model_prev) 
     pos_total = pos_df.shape[0]
     neg_total = neg_df.shape[0]
-    loss_fn = torch.nn.BCEWithLogitsLoss()
     
     for epoch in tqdm(range(num_epochs)):
         total_train_loss = 0
@@ -146,7 +149,7 @@ def training_class(model, num_epochs, batch_size, learning_rate,
                         neg_df.iloc[int(cur_group * pos_total) : 
                                     int(np.minimum((cur_group + 1) * pos_total, neg_total))]]).sample(frac=1, 
                                                                                               ignore_index=True)
-            train_loader, cur_num = create_train_loaders(2, cur_df, num_neg=0, model_type=model_type[:3])
+            train_loader, cur_num = create_train_loaders(resolution, batch_size, num_workers, pin_memory, drop_last, 2, cur_df, num_neg=0, model_type=model_type[:3])
 
         
         for i, (imgs, labels) in enumerate(train_loader):
@@ -194,7 +197,7 @@ def training_class(model, num_epochs, batch_size, learning_rate,
     
     print("Training losses: ", all_train_loss)
     print("Validation losses: ", all_val_loss)
-    plot_save_both_loss(all_train_loss, all_val_loss, model_type=modele_type, model_name=model_name, model_schedule='2')
+    plot_save_both_loss(all_train_loss, all_val_loss, model_type=model_type, model_name=model_name, model_schedule='2')
     print("Successfully saved the training and validation loss graph!") 
     
     return model, all_train_loss, all_val_loss
@@ -202,20 +205,23 @@ def training_class(model, num_epochs, batch_size, learning_rate,
 
 
 def training_seg(model, num_epochs, batch_size, learning_rate, 
-                    val_loader, test_loader, val_threshold, model_name, model_type):
+                    val_loader, model_name, model_type, resolution, num_workers, pin_memory, drop_last):
     """
     Main training function to train the first part of the ensemble model, which is the segmentation model.
     """
-    
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(DEVICE)
     
     all_train_loss = []
     all_val_loss = []
     
     optimizer = Adam(model.parameters(), lr=learning_rate)
+    loss_fn = torch.nn.BCEWithLogitsLoss()
+
+    pos_df = read_df('train_pos')
+    neg_df = read_df('train_neg') 
     pos_total = pos_df.shape[0]
     neg_total = neg_df.shape[0]
-    loss_fn = torch.nn.BCEWithLogitsLoss()
     
     for epoch in tqdm(range(num_epochs)):
         total_train_loss = 0
@@ -231,8 +237,9 @@ def training_seg(model, num_epochs, batch_size, learning_rate,
                         neg_df.iloc[int(cur_group * pos_total) : 
                                     int(np.minimum((cur_group + 1) * pos_total, neg_total))]]).sample(frac=1, 
                                                                                               ignore_index=True)
-            train_loader, cur_num = create_train_loaders(2, cur_df, num_neg=0, model_type=model_type[0])
-
+            train_loader, cur_num = create_train_loaders(resolution, batch_size, num_workers, pin_memory, drop_last, 2, cur_df, num_neg=0, model_type=model_type[:3])
+        
+       
         for i, (imgs, masks, sops) in enumerate(train_loader):
             batch_num += 1
             imgs, masks = imgs.to(DEVICE, dtype=torch.float), masks.to(DEVICE, dtype=torch.float)
@@ -273,7 +280,7 @@ def training_seg(model, num_epochs, batch_size, learning_rate,
     
     print("Training losses: ", all_train_loss)
     print("Validation losses: ", all_val_loss)
-    plot_save_both_loss(all_train_loss, all_val_loss, model_type=modele_type, model_name=model_name, model_schedule='2')
+    plot_save_both_loss(all_train_loss, all_val_loss, model_type=model_type, model_name=model_name, model_schedule='2')
     print("Successfully saved the training and validation loss graph!") 
         
     return model, all_train_loss, all_val_loss

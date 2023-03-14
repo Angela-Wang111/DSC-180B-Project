@@ -50,7 +50,7 @@ def load_model(model_name):
     
     if model_type == "seg":
         encoder = model_params[1]
-        if encoder = "RN34":
+        if encoder == "RN34":
             model = smp.Unet("resnet34", encoder_weights="imagenet", in_channels = 3, classes=1, activation=None)
         else:
             model = smp.Unet("efficientnet-b3", encoder_weights="imagenet", in_channels = 3, classes=1, activation=None)
@@ -60,7 +60,7 @@ def load_model(model_name):
         else:
             encoder = model_params[3]
                  
-        if encoder = "RN34":
+        if encoder == "RN34":
             model = resnet34()
         else:
             model = eNet_b3()
@@ -71,13 +71,15 @@ def load_model(model_name):
     return model
 
 
-def save_images_predicted_by_static_model(model, data_loader, BATCH_SIZE, model_name):
+def save_images_predicted_by_static_model(model, data_loader, batch_size, model_name):
     """
     Helper function to help the training process less repetitive. Take in trained, static model (assumed to be moved to GPU already),
     and save the predicted images from each separate data_loader.
     
     model_name: EB3_UN / RN34_UN
     """
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     for i, (imgs, masks, sops) in tqdm(enumerate(data_loader)):
         # Get predicted masks from current model
         imgs, masks = imgs.to(DEVICE, dtype=torch.float), masks.to(DEVICE, dtype=torch.float)
@@ -89,7 +91,7 @@ def save_images_predicted_by_static_model(model, data_loader, BATCH_SIZE, model_
         # Change the last channel to predicted mask
         new_img[:, 2] = preds.detach().cpu().squeeze()
 
-        for k in range(BATCH_SIZE):
+        for k in range(batch_size):
         # Deal with the dimensionality issue and the normalization for the predicted mask channel, then save
             ## deal with the last batch which has less than BATCH_SIZE number of samples
             if k >= len(new_img):
@@ -107,20 +109,24 @@ def save_images_predicted_by_static_model(model, data_loader, BATCH_SIZE, model_
     return
 
 
-def save_imgs_based_on_model(model, loaders_seg, all_neg_loader, loader_type, model_name):
+def save_imgs_based_on_model(model, val_loader, test_loader, loader_type, model_name, resolution, batch_size, num_workers, pin_memory, drop_last):
     """
     Main function to actually save all the predicted images
     """
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     model.eval()
     model.to(DEVICE)
     if loader_type == "train":
-        save_images_predicted_by_static_model(model, all_neg_loader, BATCH_SIZE, model_name)
+        train_loader = create_train_loaders(3, num_neg=0, model_type='seg', drop_last = False)
+        train_loader = create_train_loaders(resolution, batch_size, num_workers, pin_memory, drop_last=False, 3, num_neg=0, model_type="seg")
+        save_images_predicted_by_static_model(model, train_loader, batch_size, model_name)
         print("Saved all the predicted masks for training!")
     elif loader_type == 'validation':
-        save_images_predicted_by_static_model(model, loaders_seg[1], BATCH_SIZE, model_name)
+        save_images_predicted_by_static_model(model, val_loader, batch_size, model_name)
         print("Saved all the predicted masks for validation!")
     else:
-        save_images_predicted_by_static_model(model, loaders_seg[2], BATCH_SIZE, model_name)
+        save_images_predicted_by_static_model(model, test_loader, batch_size, model_name)
         print("Saved all the predicted masks for test!")
     
     return

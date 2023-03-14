@@ -24,8 +24,6 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
 from sklearn.metrics import recall_score
 
-
-
 def bi_mask(logit_mask, threshold):
     mask = np.where(logit_mask <= threshold, 0, 1)
     
@@ -61,19 +59,21 @@ def plot_confusion_matrix(y_test, y_true, model_type, model_name, model_schedule
     plt.title(title)
     plt.xlabel('Prediction')
     plt.ylabel('True')
-    plt.show()
     
     fig = cm.get_figure()
     fig.savefig('output/confusion_matrix/{}_type{}.png'.format(title, model_schedule), dpi=400)
+    plt.show()
+    plt.close(fig)
+
 
     
 def plot_roc_curve(y_test, y_true, model_type, model_name, model_schedule='2'):
     fpr, tpr, threshold = roc_curve(y_true, y_test, drop_intermediate = False)
     roc_auc = roc_auc_score(y_true, y_test)
 
-    plt.figure(1)
+    roc_plt = plt.figure(1)
     plt.plot([0, 1], [0, 1])
-    roc_plt = plt.plot(fpr, tpr, label='{}(area = {:.3f})'.format(model_name, roc_auc))
+    plt.plot(fpr, tpr, label='{}(area = {:.3f})'.format(model_name, roc_auc))
     plt.xlabel('False positive rate')
     plt.ylabel('True positive rate')
     title = 'ROC curve of {} model, {}'.format(model_type, model_name)
@@ -82,6 +82,7 @@ def plot_roc_curve(y_test, y_true, model_type, model_name, model_schedule='2'):
     plt.savefig('output/auc_roc/{}_type{}.png'.format(title, model_schedule), dpi=400)
     
     plt.show()
+    plt.close(roc_plt)
 
     
 def test_metrics_class(test_loader, model, model_type, model_name, model_schedule='2'):
@@ -89,10 +90,15 @@ def test_metrics_class(test_loader, model, model_type, model_name, model_schedul
     Calculate confusion matrix & auc-roc
     Return a list 
     """
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     y_test = np.array([])
     y_true = np.array([])
     y_test_prob = np.array([])
+    
     total_num_batch = 0
+    
+
     for i, (imgs, labels) in enumerate(test_loader):
         total_num_batch += 1
         imgs, labels = imgs.to(DEVICE, dtype=torch.float), labels.to(DEVICE, dtype=torch.float)
@@ -119,16 +125,18 @@ def test_metrics_class(test_loader, model, model_type, model_name, model_schedul
     return y_test, y_true
 
 
-def test_metrics_seg(test_loader, model, model_type, model_name, threshold, min_activation, model_schedule='2'):
+def test_metrics_seg(test_loader, model, model_type, model_name, threshold, min_activation, batch_size, model_schedule='2'):
     """
     Calculate confusion matrix, No AUC-ROC for segmentation model, 
     Print Dice Coefficient on test set
     Return a list 
     """
-    y_test = np.array([])
-    y_true = np.array([])
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(DEVICE)
     model.eval()
+
+    y_test = np.array([])
+    y_true = np.array([])
     test_dice = []
 
     total_num_batch = 0
@@ -146,12 +154,12 @@ def test_metrics_seg(test_loader, model, model_type, model_name, threshold, min_
         y_true = np.concatenate((y_true, true_label))
         # Calculate Dice Coefficient (Disclaimer: NOT PERFECT, since the true masks are not binary)             
         batch_dice = []
-        for batch_i in range(BATCH_SIZE):
+        for batch_i in range(batch_size):
             cur_dc = calculate_dc(binarized[batch_i], labels[batch_i].detach().cpu().squeeze().numpy())
             batch_dice.append(cur_dc)
         test_dice.append(np.mean(batch_dice))
     # Plot confusion matrix for the segmentation model
-    plot_confusion_matrix_seg(y_test, y_true, model_type, model_name, model_schedule)
+    plot_confusion_matrix(y_test, y_true, model_type, model_name, model_schedule)
     print("Threshold for this segmentation model: ", threshold)
     print("Minimum Activation Size: ", min_activation)
     
