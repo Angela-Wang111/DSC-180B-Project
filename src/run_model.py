@@ -48,7 +48,8 @@ def run_class(model_type, prev_model, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THR
         # save_models -> e.g.'RN34_UN_ep20_bs4_lr-4'
         file_name = '{}_ep{}_bs{}_lr{}'.format(cur_name, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE)
 #         save_model(cla_model, file_name)
-        print("model saved successed")
+#         print("model saved")
+        print("finish classification testing")
 
             
 def run_seg(model_type, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_ACTIVATION, RESOLUTION, NUM_WORKERS, PIN_MEMORY, DROP_LAST):
@@ -81,11 +82,17 @@ def run_seg(model_type, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_AC
         # save_models -> e.g.'RN34_UN_ep20_bs4_lr-4'
         file_name = '{}_ep{}_bs{}_lr{}'.format(cur_name, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE)
 #         save_model(seg_model, file_name)
-        print("model saved successed")
+#         print("model saved")
         
         trained_model.append(seg_model)
-     
-    return trained_model
+        
+        print("finish segmentation testing")
+
+    ##### re-create val & test loaders for cascade model with DROP_LAST = False
+    val_loader, test_loader = create_loader(RESOLUTION, model_type, 
+                                            BATCH_SIZE, NUM_WORKERS, PIN_MEMORY, DROP_LAST=False)
+    
+    return trained_model, val_loader, test_loader
 
 
 def run_cas(model_type, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_ACTIVATION, RESOLUTION, NUM_WORKERS, PIN_MEMORY, DROP_LAST):
@@ -95,7 +102,7 @@ def run_cas(model_type, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_AC
     
     
     # run both seg models
-    seg_models = run_seg(model_type, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_ACTIVATION, RESOLUTION, NUM_WORKERS, PIN_MEMORY, DROP_LAST)
+    seg_models, val_loader, test_loader = run_seg("segmentation", NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_ACTIVATION, RESOLUTION, NUM_WORKERS, PIN_MEMORY, DROP_LAST)
     seg_names = np.array(['RN34_UN', 'EB3_UN'])
     loader_types = np.array(['train', 'validation', 'test'])
     
@@ -104,9 +111,14 @@ def run_cas(model_type, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_AC
         cur_name = seg_names[seg_idx]
         cur_prev = cur_name + "_"
         
+        print("current saving segmentation model is: {}".format(cur_name))
+
+        
         # save intermediate imgs with both models
         for loader_type in loader_types:
-            save_imgs_based_on_model(cur_model, val_loader, test_loader, loader_type=loader_type, model_name=cur_name, resolution=RESOLUTION, batch_size=BATCH_SIZE, num_workers=NUM_WORKERS, pin_memory=PIN_MEMORY, drop_last=DROP_LAST)
+            print("current saving loader type is: {}".format(loader_type))
+            
+            save_imgs_based_on_model(cur_model, val_loader, test_loader, loader_type=loader_type, model_name=cur_name, resolution=RESOLUTION, batch_size=BATCH_SIZE, num_workers=NUM_WORKERS, pin_memory=PIN_MEMORY, drop_last=False)
         
         
         # run both classification models on both seg intermediate imgs

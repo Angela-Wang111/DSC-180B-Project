@@ -32,8 +32,8 @@ def read_df(df_type, model_name=None):
     df_path = 'test/testdata/{}.csv'.format(df_type)
     df = pd.read_csv(df_path)[['Mask_Path', 'XRay_Path']]
     
-    
-    df['SOP'] = df['XRay_Path'].apply(lambda x: x.split('/')[-1])
+    # take the SOP and stripe the ".png"
+    df['SOP'] = df['XRay_Path'].apply(lambda x: x.split('/')[-1][:-4])
     
     directory_path = 'test/testdata/intermediate_data/{}/'.format(model_name)
     predicted_suffix = '_predicted.png'
@@ -135,13 +135,13 @@ neg_df = read_df('train_neg', 'UN_RN34')
     return val_loader, test_loader
 
 
-def create_train_loaders(RESOLUTION, BATCH_SIZE, NUM_WORKERS, PIN_MEMORY, DROP_LAST, schedule_type, cur_df=None, num_neg=0, model_type=None, model_prev=None):
+def create_train_loaders(RESOLUTION, BATCH_SIZE, NUM_WORKERS, PIN_MEMORY, DROP_LAST=True, schedule_type=2, cur_df=None, num_neg=0, model_type=None, model_prev=None):
     if schedule_type == 3:
         pos_df = read_df('train_pos', model_prev)
         neg_df = read_df('train_neg', model_prev) 
         pos_total = pos_df.shape[0]
         neg_total = neg_df.shape[0]
-        cur_df = pd.concat([pos_df, neg_df.sample(n=num_neg, replace=False)]).sample(frac=1, ignore_index=True)
+        cur_df = pd.concat([pos_df, neg_df.sample(n=neg_total, replace=False)]).sample(frac=1, ignore_index=True)
         
     train_ds = CANDID_PTX(cur_df, RESOLUTION, model_type)
 

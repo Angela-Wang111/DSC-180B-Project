@@ -24,6 +24,8 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
 from sklearn.metrics import recall_score
 
+from create_dataloader import create_train_loaders
+
 
 
 def save_model(cur_model, model_name):
@@ -118,8 +120,8 @@ def save_imgs_based_on_model(model, val_loader, test_loader, loader_type, model_
     model.eval()
     model.to(DEVICE)
     if loader_type == "train":
-        train_loader = create_train_loaders(3, num_neg=0, model_type='seg', drop_last = False)
-        train_loader = create_train_loaders(resolution, batch_size, num_workers, pin_memory, drop_last=False, 3, num_neg=0, model_type="seg")
+        train_loader, cur_num = create_train_loaders(resolution, batch_size, num_workers, pin_memory, DROP_LAST=False, schedule_type=3, num_neg=0, model_type="seg", model_prev=model_name)
+        print("current training loader number of samples is: {}".format(cur_num))
         save_images_predicted_by_static_model(model, train_loader, batch_size, model_name)
         print("Saved all the predicted masks for training!")
     elif loader_type == 'validation':
