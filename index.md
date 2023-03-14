@@ -53,7 +53,7 @@ We tested two classification models, two segmentation models, and four cascade m
 </figure>
 </center>
 
-As shown above, all models will give a "Yes" or "No" prediction for each of the input chest X-rays. The segmentation model results were transformed into binary with hard thresholds based on [previous publication results](https://pubmed.ncbi.nlm.nih.gov/35224858/). 
+As shown above, all models will give a "Yes" or "No" prediction for each of the input chest X-rays. The first structure is a pure classification model. The second structure is the segmentation model, where the results were transformed into binary with hard thresholds based on [previous publication results](https://pubmed.ncbi.nlm.nih.gov/35224858/). For the third, cascade models, we trained segmentation models first on our training set, and then saved the predicted masks. Subsequently, the predicted masks and the original chest X-rays were input into the classification models for binary pneumothorax prediction. 
  
 # Result
 After training the segmentation models, we want to see what are some of the correct and wrong predicted masks, and here are our selected results:
