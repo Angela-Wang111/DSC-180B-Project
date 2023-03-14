@@ -96,7 +96,7 @@ In order to compare all the models fairly, we computed the recall and F1 scores 
 # Conclusion
 Based on the F1 and Recall performance, the best model overall is EfficientNet-B3 (encoder) + UNet (decoder) + EfficientNet-B3 (classification), which is a cascade model. Mose of the cascade models tend to cluster at the upper right corner of the Figure 7, meaning that they have the best performance overall. Segmentation models with EfficientNet-B3 as encoders also perform relatively well. The classification models perform the worst in our investigation. 
 
-Based on our investigation, cascade models that pipe segmentation and classification models together have the highest performance and have many real-world benefits, including they produce both classification results and predicted pneumothorax masks for radiologists to review. In addition, they save the trouble of finding a good hard cut-off for segmentation models. We also found that overall, EfficientNet-B3 perform better than ResNet 34 regardless of model structures. 
+In conclusion, cascade models that pipe segmentation and classification models together have the highest performance and have many real-world benefits, including they produce both classification results and predicted pneumothorax masks for radiologists to review. In addition, they save the trouble of finding a good hard cut-off for segmentation models. We also found that overall, EfficientNet-B3 perform better than ResNet 34 regardless of model structures. 
 
 
 # References
