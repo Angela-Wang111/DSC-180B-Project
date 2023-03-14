@@ -47,7 +47,7 @@ def run_class(model_type, prev_model, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THR
 
         # save_models -> e.g.'RN34_UN_ep20_bs4_lr-4'
         file_name = '{}_ep{}_bs{}_lr{}'.format(cur_name, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE)
-        save_model(cla_model, file_name)
+#         save_model(cla_model, file_name)
         print("model saved successed")
 
             
@@ -80,7 +80,7 @@ def run_seg(model_type, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_AC
 
         # save_models -> e.g.'RN34_UN_ep20_bs4_lr-4'
         file_name = '{}_ep{}_bs{}_lr{}'.format(cur_name, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE)
-        save_model(seg_model, file_name)
+#         save_model(seg_model, file_name)
         print("model saved successed")
         
         trained_model.append(seg_model)
@@ -147,7 +147,7 @@ def run_model(model_type, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_
        
             # save_models -> e.g.'RN34_UN_ep20_bs4_lr-4'
             file_name = '{}_ep{}_bs{}_lr{}'.format(cur_name, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE)
-            save_model(cla_model, file_name)
+#             save_model(cla_model, file_name)
             print("model saved successed")
             
             
@@ -173,7 +173,7 @@ def run_model(model_type, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE, THRESHOLD, MIN_
        
             # save_models -> e.g.'RN34_UN_ep20_bs4_lr-4'
             file_name = '{}_ep{}_bs{}_lr{}'.format(cur_name, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE)
-            save_model(seg_model, file_name)
+#             save_model(seg_model, file_name)
             print("model saved successed")
         
         
