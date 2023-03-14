@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Dynamic Stock Industry Classification"
+title: "Pneumothorax Classification"
 categories: main
 ---
 
