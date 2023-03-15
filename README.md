@@ -69,6 +69,9 @@ After runing the pipeline, the following files would be created :point_down:
 - *validation.csv*: validation set with 10 samples (2 positive, 8 negative).
 - *test.csv*: test set with 10 samples (1 positive, 9 negative).
 
+#### saved_model
+This is the folder where saved models will be located if the function is enabled.
+
 ### output
 This should be an empty folder before executing the pipeline. After executing the pipeline, the following metrics plots will be created :point_down:
 - auc-roc plot inside *auc-roc* folder.
