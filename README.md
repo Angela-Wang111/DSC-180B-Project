@@ -1,6 +1,7 @@
 # DSC-180B-Project
+**Project Topic:** classification of penumothorax dataset [CANDID-PTX](https://pubs.rsna.org/doi/10.1148/ryai.2021210136) using classification models, segmentation models, and cascade models.
+
 GROUP NAME: AC/DS :metal: (Angela + Cecilia -> AC, Data Science -> DS, AC/DC -> AC/DS) :fist_right::fist_left:
-- classification of penumothorax dataset [CANDID-PTX](https://pubs.rsna.org/doi/10.1148/ryai.2021210136) using classification models, segmentation models, and cascade models.
 
 **Brave Angela Not Afraid of Error :partying_face:**
 
