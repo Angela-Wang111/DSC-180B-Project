@@ -1,3 +1,6 @@
+"""
+save_model_imgs.py contains functions to save predicted masks from pre-trained segmentation models. Mainly used for preparing images to be input to the classification models during the cascade model training.
+"""
 import pandas as pd
 import numpy as np
 import pydicom as dicom
@@ -30,55 +33,18 @@ from create_dataloader import create_train_loaders
 
 def save_model(cur_model, model_name):
     """
-    model_name: usually in the form of 'UNet_ResNet34_ep20_bs4_lr-4' / 'RN34_UN_ep20_bs4_lr-4'
+    Helper function to save the weights of any models to a designated folder.
+    Input model_name: usually in the form of 'RN34_UN_ep20_bs4_lr0.0001'
     """
-    # Save segmentation model!!!!
     torch.save(cur_model.state_dict(), 'test/saved_model/{}.pth'.format(model_name))
     
-    
-    
-    
-
-def load_model(model_name):
-    """
-    model_name: usually in the form of 'UNet_ResNet34_ep20_bs4_lr-4' / 'cla_RN34_UN_ep20_bs4_lr-4'
-    """
-    # Load saved segmentation model
-    path = 'test/saved_model/{}.pth'.format(model_name)
-    
-    # Decide the type of the model
-    model_params = model_name.split('_')
-    model_type = model_params[0]
-    
-    if model_type == "seg":
-        encoder = model_params[1]
-        if encoder == "RN34":
-            model = smp.Unet("resnet34", encoder_weights="imagenet", in_channels = 3, classes=1, activation=None)
-        else:
-            model = smp.Unet("efficientnet-b3", encoder_weights="imagenet", in_channels = 3, classes=1, activation=None)
-    else:
-        if model_type == "cla":
-            encoder = model_params[1]
-        else:
-            encoder = model_params[3]
-                 
-        if encoder == "RN34":
-            model = resnet34()
-        else:
-            model = eNet_b3()
-
-    model.load_state_dict(torch.load(path))
-    model.eval()
-    
-    return model
+    return
 
 
 def save_images_predicted_by_static_model(model, data_loader, batch_size, model_name):
     """
-    Helper function to help the training process less repetitive. Take in trained, static model (assumed to be moved to GPU already),
-    and save the predicted images from each separate data_loader.
-    
-    model_name: EB3_UN / RN34_UN
+    Helper function to help the training process less repetitive. Called by "save_imgs_based_on_model"
+    Input: model_name: EB3_UN / RN34_UN
     """
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -113,7 +79,7 @@ def save_images_predicted_by_static_model(model, data_loader, batch_size, model_
 
 def save_imgs_based_on_model(model, val_loader, test_loader, loader_type, model_name, resolution, batch_size, num_workers, pin_memory, drop_last):
     """
-    Main function to actually save all the predicted images
+    Main function to actually save all the predicted images based on trained models. Take in trained, static model (assumed to be moved to GPU already), and save the predicted images from each separate data_loader.
     """
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

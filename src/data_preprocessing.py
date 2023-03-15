@@ -1,3 +1,6 @@
+"""
+data_preprocessing.py contains functions for preprocessing: decode the true masks and save them. 
+"""
 import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
@@ -7,7 +10,7 @@ import os
 
 def run_length_decode(rle, height=1024, width=1024, fill_value=1):
     """
-    Helper function to decode run length masks
+    Helper function to decode run length masks, which was the way the true masks were encoded in CANDID-PTX
     """
     component = np.zeros((height, width), np.float32)
     component = component.reshape(-1)
@@ -57,7 +60,6 @@ def decode_mask(test_csv_path, output_path):
     df_pos_combine = df_pos.groupby('SOPInstanceUID').sum()
     save_positive_masks(output_path, df_pos_combine)
     save_negative_masks(output_path)
-    
     
     return
     

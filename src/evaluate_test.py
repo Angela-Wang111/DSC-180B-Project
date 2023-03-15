@@ -1,3 +1,6 @@
+"""
+evaluate_test.py contains functions to plot, print, and save metrics based on the test set to evaluate all models.
+"""
 import pandas as pd
 import numpy as np
 import pydicom as dicom
@@ -25,6 +28,9 @@ from sklearn.metrics import f1_score
 from sklearn.metrics import recall_score
 
 def bi_mask(logit_mask, threshold):
+    """
+    Helper function to binarize masks based on given threshold for segmentation models.
+    """
     mask = np.where(logit_mask <= threshold, 0, 1)
     
     return mask
@@ -51,9 +57,10 @@ def calculate_dc(preds, true_mask):
     
 
 def plot_confusion_matrix(y_test, y_true, model_type, model_name, model_schedule='2'):
-    
+    """
+    Helper function to plot and save confusion matrices for given model based on test set results.
+    """
     cm = confusion_matrix(y_true, y_test)
-
     cm = sns.heatmap(cm, annot=True, cmap = 'Blues', fmt="d")
     title = 'Confusion matrix of {} model, {}'.format(model_type, model_name)
     plt.title(title)
@@ -64,10 +71,15 @@ def plot_confusion_matrix(y_test, y_true, model_type, model_name, model_schedule
     fig.savefig('output/confusion_matrix/{}_type{}.png'.format(title, model_schedule), dpi=400)
     plt.show()
     plt.close(fig)
+    
+    return
 
 
     
 def plot_roc_curve(y_test, y_true, model_type, model_name, model_schedule='2'):
+    """
+    Helper function to plot and save ROC curves for given model based on test set results.
+    """
     fpr, tpr, threshold = roc_curve(y_true, y_test, drop_intermediate = False)
     roc_auc = roc_auc_score(y_true, y_test)
 
@@ -83,12 +95,15 @@ def plot_roc_curve(y_test, y_true, model_type, model_name, model_schedule='2'):
     
     plt.show()
     plt.close(roc_plt)
+    
+    return
 
     
 def test_metrics_class(test_loader, model, model_type, model_name, model_schedule='2'):
     """
-    Calculate confusion matrix & auc-roc
-    Return a list 
+    Main function for plotting and printing metrics for classification models. 
+    Call helper functions to plot and save confusion matrix and ROC curves. Print out F1-Score and Recall.
+    Return true test labels and predicted test labels.
     """
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -127,9 +142,10 @@ def test_metrics_class(test_loader, model, model_type, model_name, model_schedul
 
 def test_metrics_seg(test_loader, model, model_type, model_name, threshold, min_activation, batch_size, model_schedule='2'):
     """
-    Calculate confusion matrix, No AUC-ROC for segmentation model, 
-    Print Dice Coefficient on test set
-    Return a list 
+    
+    Main function for plotting and printing metrics for segmentation models. 
+    Call helper functions to plot and save confusion matrix. No ROC curve for segmentation models. Print out model details and metrics.
+    Return true test labels and predicted test labels.
     """
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(DEVICE)

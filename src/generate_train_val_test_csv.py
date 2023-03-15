@@ -1,6 +1,8 @@
+"""
+generate_train_val_test_csv.py contains functions for conducting train/val/test split and generating csv files.
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
-# import pydicom as dicom
 
 def SOPInstanceUID_to_Mask_Path(SOPInstanceUID):
     """
@@ -18,7 +20,7 @@ def SOPInstanceUID_to_Path(SOPInstanceUID):
 
 def generate_four_csv(input_csv_path):
     """
-    Main function to take the sample original csv, split into 8, 1, 1, and then save three desired CSV files. 
+    Main function to take the sample original csv, split into 8, 1, 1, and then save five desired CSV files. 
     """
     input_csv = pd.read_csv(input_csv_path)
     csv_small = input_csv[['SOPInstanceUID', 'EncodedPixels']]

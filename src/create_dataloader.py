@@ -1,15 +1,13 @@
-## Helper class for DataLoader
+"""
+create_dataloader.py contains functions for creating data loaders for model training.
+"""
 import sys
 import os
 import json
 import numpy as np
 import matplotlib.pyplot as plt
-
-sys.path.insert(0, 'src')
-
 import pandas as pd
 import cv2
-
 import torch 
 from  torchvision import transforms, models
 import torch.nn as nn
@@ -18,28 +16,22 @@ from torch import Tensor
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 
-# import warnings
-# warnings.filterwarnings('ignore')
-
+sys.path.insert(0, 'src')
 
 def read_df(df_type, model_name=None):
     """
     Helper function to read each csv file
     
-    df_type: 'train_pos'/'train_neg'/'validation'/'test' (type of the dataframe)
-    model_name: 'RN34_UN'/'EB3_UN' (name of the segmentation model)
+    Possible values for df_type: 'train_pos'/'train_neg'/'validation'/'test' (type of the dataframe)
+    Possible values for model_name: 'RN34_UN'/'EB3_UN' (name of the segmentation model)
     """
     df_path = 'test/testdata/{}.csv'.format(df_type)
     df = pd.read_csv(df_path)[['Mask_Path', 'XRay_Path']]
-    
     # take the SOP and stripe the ".png"
     df['SOP'] = df['XRay_Path'].apply(lambda x: x.split('/')[-1][:-4])
-    
     directory_path = 'test/testdata/intermediate_data/{}/'.format(model_name)
     predicted_suffix = '_predicted.png'
     df['Intermediate_Predicted_Path'] = df['SOP'].apply(lambda x: directory_path + x + predicted_suffix)
-
-
     df['No_Pneumothorax'] = df['Mask_Path'].str.contains('negative_mask').astype(int)
     df['Yes_Pneumothorax'] = 1 - df['No_Pneumothorax']
     
@@ -49,16 +41,19 @@ def read_df(df_type, model_name=None):
 
 
 class CANDID_PTX(Dataset):
+    """
+    Main class to be used in generating data loaders.
+    """
     def __init__(self, df, resolution, model_type):
+        """
+        Model_type: 'cla' for Classification, 'seg' for Segmentation, 'cas' for Cascade
+        """
         self.img_paths = df['XRay_Path'].values
         self.intermediate_paths = df['Intermediate_Predicted_Path'].values
         self.mask_paths = df['Mask_Path'].values
         self.labels = torch.tensor(df[['No_Pneumothorax', 'Yes_Pneumothorax']].values, dtype=torch.float32)
-        # Just changed by Angela
         self.sop = df['SOP'].values
         self.resolution = resolution
-        
-        # model_type: 'Class' for Classification, 'Seg' for Segmentation, 'Cas' for Cascade
         self.model_type = model_type
               
         return
@@ -83,7 +78,6 @@ class CANDID_PTX(Dataset):
         
         else:
             img_path = self.img_paths[idx]
-#             img = dicom.dcmread(img_path).pixel_array
             img = plt.imread(img_path)[:, :, 0]
             img_min = np.min(img)
             img_max = np.max(img)
@@ -111,12 +105,7 @@ class CANDID_PTX(Dataset):
 
 def create_loader(RESOLUTION, model_type, BATCH_SIZE, NUM_WORKERS, PIN_MEMORY, DROP_LAST, model_prev=None):
     """
-    Main function to call in run.py file to generate three data loaders
-    train_df = read_df('train', 'UN_RN34')
-val_df = read_df('validation', 'UN_RN34')
-test_df = read_df('test', 'UN_RN34')
-pos_df = read_df('train_pos', 'UN_RN34')
-neg_df = read_df('train_neg', 'UN_RN34')
+    Helper function to generate validation and test data loaders for all models.
     """
     val_df = read_df('validation', model_prev)
     
@@ -136,6 +125,9 @@ neg_df = read_df('train_neg', 'UN_RN34')
 
 
 def create_train_loaders(RESOLUTION, BATCH_SIZE, NUM_WORKERS, PIN_MEMORY, DROP_LAST=True, schedule_type=2, cur_df=None, num_neg=0, model_type=None, model_prev=None):
+    """
+    Helper function to generate train data loaders for all models.
+    """
     if schedule_type == 3:
         pos_df = read_df('train_pos', model_prev)
         neg_df = read_df('train_neg', model_prev) 

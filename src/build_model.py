@@ -1,3 +1,6 @@
+"""
+build_model.py contains functions to train classification, segmentation, and cascade models. 
+"""
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,9 +32,7 @@ from create_dataloader import read_df
 class resnet34(nn.Module):
 
     """
-
-    ResNet34 model, pretrained with ImageNet weights, for pure classification model. 
-
+    ResNet34 model, pretrained with ImageNet weights, for classification models. 
     """
 
     def __init__(self):
@@ -59,9 +60,7 @@ class resnet34(nn.Module):
 class eNet_b3(nn.Module):
 
     """
-
-    EfficientNet-B3 model, pretrained with ImageNet weights, for pure classification model. 
-
+    EfficientNet-B3 model, pretrained with ImageNet weights, for classification models. 
     """
 
     def __init__(self):
@@ -104,7 +103,6 @@ def plot_save_both_loss(all_train_loss, all_val_loss, model_type, model_name, mo
     # set the labels
     train_val_loss.set_xticklabels(np.arange(1, epoch_num+1, 1))
 
-
     ## now label the y- and x-axes.
     plt.ylabel('BCE Loss')
     plt.xlabel('Epoch Number')
@@ -123,7 +121,9 @@ def plot_save_both_loss(all_train_loss, all_val_loss, model_type, model_name, mo
 
 def training_class(model, num_epochs, batch_size, learning_rate, 
                     val_loader, model_name, model_type, resolution, num_workers, pin_memory, drop_last, model_prev=None):
-    
+    """
+    Main function to train any classification models, both for pure classification models and the classification models in the cascade models.
+    """
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(DEVICE)
     
@@ -207,7 +207,7 @@ def training_class(model, num_epochs, batch_size, learning_rate,
 def training_seg(model, num_epochs, batch_size, learning_rate, 
                     val_loader, model_name, model_type, resolution, num_workers, pin_memory, drop_last):
     """
-    Main training function to train the first part of the ensemble model, which is the segmentation model.
+    Main training function to train segmentation models. Used for training both pure segmentation models and the segmentation models in the cascade models. 
     """
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(DEVICE)
@@ -268,7 +268,7 @@ def training_seg(model, num_epochs, batch_size, learning_rate,
             imgs, masks = imgs.to(DEVICE, dtype=torch.float), masks.to(DEVICE, dtype=torch.float)
 
             preds = model(imgs)
-            loss = loss_fn(preds, masks) # is this mean or sum?
+            loss = loss_fn(preds, masks)
             total_val_loss += float(loss.detach().cpu()) # accumulate the total loss for this epoch.
 
         # Calculate the overall validation loss and dice-coefficient
